@@ -50,7 +50,7 @@
 <body>
 
     <div class="container">
-        <button class="button"><a href="/board" style="text-decoration: none; color:black;">Start Game</button>
+        <button class="button"><a href="/login" style="text-decoration: none; color:black;">Start Game</button>
     </div>
     @include('layouts.footer')
 </body>
