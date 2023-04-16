@@ -6,17 +6,8 @@ use Illuminate\Http\Request;
 
 class BoardController extends Controller
 {
-    public function settings()
+    public function index()
     {
-        return view('settings');
-    }
-
-    public function board(Request $request)
-    {
-        $player = new Player();
-        $player->piece = $request->input('piece');
-        $player->save();
-
-        return view('board', ['player' => $player]);
+        return view('board');
     }
 }
