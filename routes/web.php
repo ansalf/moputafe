@@ -38,15 +38,21 @@ Route::get('/dashboard', function () {
 });
 
 // Route Settingan
-Route::get('/settings', function () {
-    return view('settings');
-});
-Route::post('/settings/save', [SettingsController::class, 'save'])->name('settings.save');
-
+//Route::get('/settings', function () {
+   // return view('settings');
+//});
+//Route::post('/settings/save', [SettingsController::class, 'save'])->name('settings.save');
 Route::get('/games', [GameController::class, 'index']);
+Route::get('/settings', 'BoardController@settings')->name('settings');
+Route::post('/board', 'BoardController@board')->name('board');
+
 
 // Route Board-pion-added
+//Route::get('/choose-piece', function(){
+  //  return view('choose-piece');
+//});
 Route::post('/board', 'BoardController@index')->name('board');
+
 
 // Route Player
 //Route::resource('players', [PlayerController::class, 'index']);

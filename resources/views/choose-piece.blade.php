@@ -5,7 +5,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Choose Your Piece</div>
+                    <div class="card-header">
+                        <!-- Choose your piece -->
+                        Choose Your Piece
+                    </div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('board') }}">
@@ -21,8 +24,10 @@
                                 </select>
                             </div>
 
+                            <!-- Send player ID as a hidden input field -->
                             <input type="hidden" name="player_id" value="{{ $player->id }}">
 
+                            <!-- Submit the form to start the game -->
                             <button type="submit" class="btn btn-primary">Start Game</button>
                         </form>
                     </div>

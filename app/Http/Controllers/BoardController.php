@@ -6,17 +6,17 @@ use Illuminate\Http\Request;
 
 class BoardController extends Controller
 {
-    public function index()
+    public function settings()
     {
-        $player_id = $request->player_id;
-        $piece = $request->piece;
+        return view('settings');
+    }
 
-        // Simpan pilihan pion ke dalam database
-        $player = Player::find($player_id);
-        $player->piece = $piece;
+    public function board(Request $request)
+    {
+        $player = new Player();
+        $player->piece = $request->input('piece');
         $player->save();
 
-        // Tampilkan halaman board game dengan pion pilihan
-        return view('board', compact('piece'));
+        return view('board', ['player' => $player]);
     }
 }
