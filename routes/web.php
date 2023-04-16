@@ -46,7 +46,10 @@ Route::post('/settings/save', [SettingsController::class, 'save'])->name('settin
 Route::get('/games', [GameController::class, 'index']);
 
 // Route Board-pion-added
-Route::post('/board', 'BoardController@index')->name('board');
+//Route::get('/board', 'BoardController@index')->name('board');
+Route::get('/board', function () {
+    return view('board');
+});
 
 // Route Player
 //Route::resource('players', [PlayerController::class, 'index']);
