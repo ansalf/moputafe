@@ -52,16 +52,16 @@
     <video Autoplay muted playsinline loop id="video-background">
         <source src="{{ asset('img/play_bg.mp4') }}" type="video/mp4">
     </video>
-
+    @if (auth()->check())
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="\resources\asset\img\user.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Nama Player
+            <a class="navbar-brand" href="{{ route('authenticate') }}">
+                <img src="{{ asset('img/user.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                {{ auth()->user()->username }}
             </a>
         </div>
     </nav>
-
+    @endif
     </div>
     <div class="banner">
         <form method="post" action="{{ route('settings.save') }}">
@@ -99,6 +99,10 @@
             <br><br>
             <input type="submit" value="Save Settings">
         </form>
+        <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit">Logout</button>
+            </form>
     </div>
 
     <script src="{{ asset('js/settings.js') }}"></script>

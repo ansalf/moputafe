@@ -31,7 +31,7 @@ class RegisterController extends Controller
         $validateData['password'] = Hash::make($validateData['password']);
         $validateData['role'] = 'hotel_guest';
         User::create($validateData);
-        return redirect('dashboard')
+        return redirect('login')
         ->with('pesan', "Penambahan data {$validateData['name']} berhasil");
     }
 }
