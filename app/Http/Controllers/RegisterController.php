@@ -17,13 +17,12 @@ class RegisterController extends Controller
     public function store(Request $request) 
     {
         $validateData = $request->validate([
-            'name' => 'required|size:8|unique:mahasiswas',
-            'username' => 'required|min:3|max:50',
+            'name' => 'required',
+            'username' => 'required|min:3|max:50|unique:users',
             'password' => 'required',
         ], [
             'name.required' => 'Name must be filled',
-            'name.size' => 'Name must have 8 character',
-            'name.unique' => 'Name has already taken',
+            'username.unique' => 'Username has already taken',
             'username.required' => 'Username must be filled',
             'username.min' => 'Please, input at least 3 character',
             'username.max' => 'Sorry, maximal is 50 character',
@@ -31,8 +30,8 @@ class RegisterController extends Controller
         ]);
         $validateData['password'] = Hash::make($validateData['password']);
         $validateData['role'] = 'hotel_guest';
-        Register::store($validateData);
-        return redirect()->route('dashboard')
-        ->with('pesan', "Penambahan data {$validateData['nama']} berhasil");
+        User::create($validateData);
+        return redirect('dashboard')
+        ->with('pesan', "Penambahan data {$validateData['name']} berhasil");
     }
 }

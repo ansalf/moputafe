@@ -52,7 +52,7 @@ Route::get('/board', function () {
 });
 
 // Route Player
-//Route::resource('players', [PlayerController::class, 'index']);
+Route::get('players', [PlayerController::class, 'index']);
 
 
 

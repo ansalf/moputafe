@@ -53,6 +53,16 @@
         <source src="{{ asset('img/play_bg.mp4') }}" type="video/mp4">
     </video>
 
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="\resources\asset\img\user.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Nama Player
+            </a>
+        </div>
+    </nav>
+
+    </div>
     <div class="banner">
         <form method="post" action="{{ route('settings.save') }}">
             <h1>Moputa Game Settings</h1>

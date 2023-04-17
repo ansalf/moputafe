@@ -22,12 +22,22 @@
             <form action="/login" method="POST" class="p-4 p-md-5 border rounded-3 bg-light" autocomplete="off">
                 @csrf
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="username" name="username" style="border-radius: 10px;" placeholder="Username" autofocus required>
+                    <input type="text" class="form-control @error('username') is-invalid @enderror" id="username" name="username" style="border-radius: 10px;" placeholder="Username">
                     <label for="username">Username</label>
+                    @error('username')
+                            <div class="text-danger">
+                                {{ $message }}
+                            </div>
+                        @enderror
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="password" name="password" style="border-radius: 10px;" placeholder="Password" required>
+                    <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password" style="border-radius: 10px;" placeholder="Password">
                     <label for="password">Password</label>
+                    @error('password')
+                            <div class="text-danger">
+                                {{ $message }}
+                            </div>
+                        @enderror
                 </div>
                 <button class="w-100 btn btn-lg btn-secondary" type="submit" style="border-radius: 30px;"><a href="/dashboard" style="color: white; text-decoration:none;">Login</button>
                 <hr class="my-4">
