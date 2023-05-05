@@ -76,7 +76,7 @@
             <br><br>
             <label for="playerColor">Player Color:</label>
             <select id="playerColor" name="playerColor">
-                <option value="red">Red</option>
+                <option value="red" >Red</option>
                 <option value="green">Green</option>
                 <option value="blue">Blue</option>
                 <option value="yellow">Yellow</option>

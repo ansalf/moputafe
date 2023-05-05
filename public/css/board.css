@@ -564,3 +564,15 @@ h6 {
     width: 50px;
     margin-top: 10px;
   }
+
+  .rotate_atas {
+    transform: rotate(180deg);
+  }
+
+  .rotate_kanan{
+    transform: rotate(90deg);
+  }
+  
+  .rotate_kiri {
+    transform: rotate(270deg);
+  }
