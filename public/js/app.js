@@ -5,7 +5,7 @@ let currentPlayer = 0;
 function rollDice() {
   const result = Math.floor(Math.random() * 6) + 1;
   diceResult.textContent = result;
-  
+
   // Move current player's token
   const currentToken = players[currentPlayer];
   let currentPosition = parseInt(currentToken.dataset.position);
@@ -15,7 +15,7 @@ function rollDice() {
   }
   currentToken.dataset.position = currentPosition;
   currentToken.style.left = `${getPosition(currentPosition)}px`;
-  
+
   // Move to next player
   currentPlayer++;
   if (currentPlayer >= numPlayers) {

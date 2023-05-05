@@ -19,19 +19,38 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function rollThatDice() {
-    audio.currentTime = 0;
-    image.style.animation = "spindice 0.25s";
-    setTimeout(function () {
-        image.setAttribute("src", diceFaces[getRandomInt(1, 6)]);
-    }, 125);
+let playerIndex = 0
+let playerDice = []
+let currPos = 1
+let numPlayer = localStorage.getItem('numPlayers')
 
-    setTimeout(function () {
-        image.style.animation = "none";
-    }, 250);
-    audio.play();
+for(let i=0;i<numPlayer;i++){
+    let player = document.createElement('div')
+    player.style.backgroundColor = localStorage.getItem('playerColor')
+    player.classList.add('user')
+    player.setAttribute("id", `user-${i}`)
+    player.innerText = i+1
+    playerDice.push(0)
+    document.getElementById(1).appendChild(player)
 }
 
-document.addEventListener("DOMContentLoaded", function (event) {
+function rollThatDice() {
+    // audio.currentTime = 0;
+    image.style.display = 'none';
+    i = document.getElementsByClassName('dice-result')[0].innerHTML;
+    image.style.display = 'block';
+    image.setAttribute("src", diceFaces[i]);
+    handleMovement()
+    // audio.play();
+}
+
+function handleMovement() {
+    playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML)
+    let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1)
+    newPos.appendChild(document.getElementById(`user-${playerIndex}`))
+    playerIndex = (playerIndex + 1) % numPlayer
+}
+
+document.getElementsByClassName('roll-dice')[0].addEventListener("click", function (event) {
     rollThatDice();
 });
