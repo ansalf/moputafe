@@ -22,7 +22,6 @@
             </div>
 
             <div class="space corner go" id="1">
-                <div class="user">1</div>
                 <div class="container">
                     <div class="instructions">Collect £200 as you pass</div>
                     <div class="go-word">HOME</div>
@@ -214,9 +213,13 @@
                 </div>
                 <div class="space railroad" id="26">
                     <div class="container">
-                        <div class="name">Kalpataru</div>
+                        <div class="name"id="show-popup">Kalpataru</div>
                         <i class="drawing fa fa-building"></i>
                         <div class="price">£200</div>
+                        <div id="my-popup" style="display:none">
+                            <h2>Ini adalah judul popup</h2>
+                            <p>Ini adalah konten popup</p>
+                        </div>
                     </div>
                 </div>
                 <div class="space property" id="27">
@@ -323,7 +326,8 @@
     </div>
     <div class="dice">
         <button class="roll-dice">Roll Dice</button>
-        <span class="dice-result" style="margin-right: 10px"></span>
+        <span class="dice-result"></span>
+        <br/>
         <img src="https://bit.ly/dice-unknown" id="dice">
     </div>
     @include('layouts.footer')

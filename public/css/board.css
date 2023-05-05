@@ -536,9 +536,11 @@ h6 {
 }
 
 .dice {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 10%;
+    right: 70px;
+    transform: translateY(-50%);
+    margin-top: 10px;
   }
 
   .roll-dice {
@@ -553,10 +555,12 @@ h6 {
   .dice-result {
     font-size: 24px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
 
   #dice{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
   }
