@@ -53,7 +53,3 @@ Route::get('/board', function () {
 
 // Route Player
 Route::get('players', [PlayerController::class, 'index']);
-
-
-
-

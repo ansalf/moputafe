@@ -326,10 +326,8 @@
         <span class="dice-result" style="margin-right: 10px"></span>
         <img src="https://bit.ly/dice-unknown" id="dice">
     </div>
+    @include('layouts.footer')
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/dice.js') }}"></script>
-    @include('layouts.footer')
-
 </body>
-
 </html>
