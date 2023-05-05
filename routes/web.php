@@ -7,6 +7,7 @@ use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\BoardController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\GameController;
+use App\Http\Controllers\User\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,9 +20,28 @@ use App\Http\Controllers\GameController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('user.index');
+// });
+
+// Route landing page
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+Route::get('/feature', [HomeController::class, 'feature'])->name('feature');
+
+Route::get('/project', [HomeController::class, 'project'])->name('project');
+
+Route::get('/quote', [HomeController::class, 'quote'])->name('quote');
+
+Route::get('/service', [HomeController::class, 'service'])->name('service');
+
+Route::get('/team', [HomeController::class, 'team'])->name('team');
+
+Route::get('/testimonial', [HomeController::class, 'testimonial'])->name('testimonial');
 
 // Login Routes
 Route::get('/login', [LoginController::class, 'login']);
@@ -53,7 +73,4 @@ Route::get('/board', function () {
 
 // Route Player
 Route::get('players', [PlayerController::class, 'index']);
-
-
-
 
