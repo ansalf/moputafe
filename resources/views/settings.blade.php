@@ -74,16 +74,6 @@
             <label for="numPlayers">Number of Players:</label>
             <input type="number" id="numPlayers" name="numPlayers" min="2" max="6">
             <br><br>
-            <label for="playerPiece">Player Piece:</label>
-            <select id="playerPiece" name="playerPiece">
-                <option value="car">Car</option>
-                <option value="shoe">Shoe</option>
-                <option value="hat">Hat</option>
-                <option value="dog">Dog</option>
-                <option value="ship">Ship</option>
-                <option value="cat">Cat</option>
-            </select>
-            <br><br>
             <label for="playerColor">Player Color:</label>
             <select id="playerColor" name="playerColor">
                 <option value="red">Red</option>
@@ -99,10 +89,6 @@
             <br><br>
             <input type="submit" value="Save Settings">
         </form>
-        <form method="POST" action="{{ route('logout') }}">
-                @csrf
-                <button type="submit">Logout</button>
-            </form>
     </div>
 
     <script src="{{ asset('js/settings.js') }}"></script>
