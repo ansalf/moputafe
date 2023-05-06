@@ -22,9 +22,9 @@ class HomeController extends Controller
         return view('user.service');
     }
 
-    public function detect()
+    public function project()
     {
-        return view('user.detect');
+        return view('user.project');
     }
 
     public function feature()
@@ -46,4 +46,15 @@ class HomeController extends Controller
     {
         return view('user.contact');
     }
+    public function quote()
+    {
+        return view('user.quote');
+    }
+    public function errors()
+    {
+        return view('errors.404');
+    }
+
+
+
 }

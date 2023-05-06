@@ -43,6 +43,8 @@ Route::get('/team', [HomeController::class, 'team'])->name('team');
 
 Route::get('/testimonial', [HomeController::class, 'testimonial'])->name('testimonial');
 
+Route::get('/404', [HomeController::class, '404'])->name('404');
+
 // Login Routes
 Route::get('/login', [LoginController::class, 'login']);
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -67,6 +69,8 @@ Route::get('/games', [GameController::class, 'index']);
 
 // Route Board-pion-added
 //Route::get('/board', 'BoardController@index')->name('board');
+
+
 Route::get('/board', function () {
     return view('board');
 });
