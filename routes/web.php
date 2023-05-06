@@ -45,6 +45,10 @@ Route::get('/testimonial', [HomeController::class, 'testimonial'])->name('testim
 
 Route::get('/404', [HomeController::class, '404'])->name('404');
 
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+
+
 // Login Routes
 Route::get('/login', [LoginController::class, 'login']);
 Route::post('/login', [LoginController::class, 'authenticate']);

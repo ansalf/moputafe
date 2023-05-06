@@ -58,8 +58,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="{{ route('feature') }}" class="dropdown-item">Feature</a>
-                        <a href="{{ route('quote') }}" class="dropdown-item">Free Quote</a>
+                        <a href="/login" class="dropdown-item">Login</a>
+                        <a href="/register" class="dropdown-item">Register</a>
                     </div>
                 </div>
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
