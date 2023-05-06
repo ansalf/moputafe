@@ -355,6 +355,7 @@
 }
 
 .portfolio-inner {
+    height: 500px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);

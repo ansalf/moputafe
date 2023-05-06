@@ -10,10 +10,15 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For You</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For
+                                    You</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
+                                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href=""
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
@@ -25,10 +30,15 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All Business</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All
+                                    Business</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
+                                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href=""
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
@@ -40,10 +50,15 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security System</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security
+                                    System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
+                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href=""
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +83,8 @@
                         </div>
                         <h5 class="text-white">Home Security</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
+                            et</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -81,7 +97,8 @@
                         </div>
                         <h5 class="text-white">Access Control</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
+                            et</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -94,7 +111,8 @@
                         </div>
                         <h5 class="text-white">24/7 Support</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita et</span>
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
+                            et</span>
                     </div>
                 </div>
             </div>
@@ -109,14 +127,16 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/about.jpg') }}" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/about.jpg') }}"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
                         <h1 class="display-5 mb-4">About Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                         <div class="row g-4 mb-4 pb-3">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="d-flex align-items-center">
@@ -212,7 +232,8 @@
                     <div class="p-lg-5 ps-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
                         <h1 class="display-5 mb-5">Why Choose Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -263,7 +284,8 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/feature.jpg') }}" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/feature.jpg') }}"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -299,8 +321,11 @@
                             <p class="text-primary mb-2">Business Security</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-1.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-1.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -316,8 +341,11 @@
                             <p class="text-primary mb-2">Fire Detection</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-2.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-2.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -333,8 +361,11 @@
                             <p class="text-primary mb-2">Access Control</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-3.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-3.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -350,8 +381,11 @@
                             <p class="text-primary mb-2">Alarm Systems</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-4.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-4.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -367,8 +401,11 @@
                             <p class="text-primary mb-2">CCTV & Video</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-5.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-5.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -384,7 +421,7 @@
                             <p class="text-primary mb-2">Smart Home</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href='landpage/img/portfolio-6.jpg' data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-6.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -401,24 +438,29 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/quote.jpg') }}" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('landpage/img/quote.jpg') }}"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
                         <h1 class="display-5 mb-5">Free Quote</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile"
+                                        style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
@@ -457,9 +499,12 @@
                         <div class="overflow-hidden position-relative">
                             <img class="img-fluid" src="{{ asset('landpage/img/team-1.jpg') }}" alt="">
                             <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -473,9 +518,12 @@
                         <div class="overflow-hidden position-relative">
                             <img class="img-fluid" src="{{ asset('landpage/img/team-2.jpg') }}" alt="">
                             <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -489,9 +537,12 @@
                         <div class="overflow-hidden position-relative">
                             <img class="img-fluid" src="{{ asset('landpage/img/team-3.jpg') }}" alt="">
                             <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -505,9 +556,12 @@
                         <div class="overflow-hidden position-relative">
                             <img class="img-fluid" src="{{ asset('landpage/img/team-4.jpg') }}" alt="">
                             <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -530,18 +584,27 @@
                 <h1 class="display-5 mb-5">Testimonial</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='landpage/img/testimonial-1.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='landpage/img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                        clita.</p>
                     <h4>Client Name</h4>
                     <span class="text-primary">Profession</span>
                 </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='landpage/img/testimonial-2.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='landpage/img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                        clita.</p>
                     <h4>Client Name</h4>
                     <span class="text-primary">Profession</span>
                 </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='landpage/img/testimonial-3.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='landpage/img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
+                        clita.</p>
                     <h4>Client Name</h4>
                     <span class="text-primary">Profession</span>
                 </div>
