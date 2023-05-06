@@ -121,7 +121,6 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Copyright Start -->
     <div class="container-fluid py-4" style="background: #000000;">
         <div class="container">
@@ -137,7 +136,6 @@
         </div>
     </div>
     <!-- Copyright End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
