@@ -79,15 +79,4 @@
         portfolioIsotope.isotope({ filter: $(this).data("filter") });
     });
 
-    //portofolio inner
-    $(window).on("load", function () {
-        var maxHeight = -1;
-        $(".portfolio-inner").each(function () {
-            maxHeight =
-                maxHeight > $(this).height() ? maxHeight : $(this).height();
-        });
-        $(".portfolio-inner").each(function () {
-            $(this).height(maxHeight);
-        });
-    });
 })(jQuery);

@@ -144,7 +144,6 @@
     background: var(--primary) !important;
 }
 
-
 /*** Header ***/
 .header-carousel .carousel-inner {
     position: absolute;
@@ -162,7 +161,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;

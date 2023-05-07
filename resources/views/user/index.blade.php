@@ -68,7 +68,6 @@
     </div>
     <!-- Carousel End -->
 
-
     <!-- Facts Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -119,7 +118,6 @@
         </div>
     </div>
     <!-- Facts Start -->
-
 
     <!-- About Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
