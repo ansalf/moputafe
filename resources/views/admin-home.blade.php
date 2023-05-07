@@ -16,6 +16,8 @@
                         welcome to admin Dashboard
                         {{ __('You are logged in!') }}
                     </div>
+                    <button><a href="/dashboard/users"{{ Request::is('dashboard/users*') ? 'active' : '' }}>check User</a></button>
+
                 </div>
             </div>
         </div>
