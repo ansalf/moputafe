@@ -13,7 +13,7 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-                        welcome to admin Dashboard
+                        Welcome to Moputa Admin Dashboard
                         {{ __('You are logged in!') }}
                     </div>
                     <button><a href="/dashboard/users"{{ Request::is('dashboard/users*') ? 'active' : '' }}>check User</a></button>
