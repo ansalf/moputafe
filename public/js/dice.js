@@ -19,7 +19,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let playerIndex = 0
+let playerIndex = 5
 let playerDice = []
 let currPos = 1
 let numPlayer = localStorage.getItem('numPlayers')
@@ -44,12 +44,127 @@ function rollThatDice() {
     // audio.play();
 }
 
+// document.getElementsByClassName('roll-dice')[0].addEventListener("click", function (event) {
+//     if (playerIndex === 0) {
+//         rollThatDice();
+//     } else {
+//         setTimeout(function() {
+//             let diceResult = getRandomInt(1, 6);
+//             document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+//             playerIndex = (playerIndex + 1) % numPlayer;
+//             if (playerIndex === 0) {
+//                 rollThatDice();
+//             } else if (playerIndex === 5) {
+//                 // stop automatic movement
+//             } else {
+//                 handleMovement();
+//             }
+//         }, 1000);
+//     }
+// });
+
+document.getElementsByClassName('roll-dice')[0].addEventListener("click", function (event) {
+    if (playerIndex = 0) {
+        rollThatDice();
+    } else {
+        setTimeout(function() {
+            let diceResult = getRandomInt(1, 6);
+            document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+            rollThatDice();
+        }, 1000);
+    }
+});
+
 function handleMovement() {
-    playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML)
-    let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1)
-    newPos.appendChild(document.getElementById(`user-${playerIndex}`))
-    playerIndex = (playerIndex + 1) % numPlayer
+    playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML);
+    let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1);
+    newPos.appendChild(document.getElementById(`user-${playerIndex}`));
+    
+    if (playerIndex !== 0) {
+        setTimeout(function() {
+            let diceResult = getRandomInt(1, 6);
+            document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+            playerIndex = (playerIndex + 1) % numPlayer;
+            if (playerIndex === 0) {
+                rollThatDice();
+            } else {
+                if (playerIndex === 5) {
+                    rollThatDice();
+                } else {
+                    handleMovement();
+                }
+            }
+        }, 1000);
+    } else {
+        playerIndex = (playerIndex + 1) % numPlayer;
+    }
 }
+
+// function handleMovement() {
+//     playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML);
+//     let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1);
+//     newPos.appendChild(document.getElementById(`user-${playerIndex}`));
+    
+//     if (playerIndex !== 0) {
+//         setTimeout(function() {
+//             let diceResult = getRandomInt(1, 6);
+//             document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+//             playerIndex = (playerIndex + 1) % numPlayer;
+//             if (playerIndex === 0) {
+//                 rollThatDice();
+//             } else {
+//                 handleMovement();
+//             }
+//         }, 1000);
+//     } else {
+//         playerIndex = (playerIndex + 1) % numPlayer;
+//     }
+// }
+
+// function handleMovement() {
+//     playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML);
+//     let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1);
+//     newPos.appendChild(document.getElementById(`user-${playerIndex}`));
+    
+//     if (playerIndex !== 0) {
+//         if (playerIndex === 5) {
+//             playerIndex = 0;
+//         } else {
+//             setTimeout(function() {
+//                 let diceResult = getRandomInt(1, 6);
+//                 document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+//                 playerIndex = (playerIndex + 1) % numPlayer;
+//                 rollThatDice();
+//             }, 2000);
+//         }
+//     } else {
+//         playerIndex = (playerIndex + 1) % numPlayer;
+//     }
+// }
+
+// function handleMovement() {
+//     playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML);
+//     let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1);
+//     newPos.appendChild(document.getElementById(`user-${playerIndex}`));
+    
+//     if (playerIndex !== 0) {
+//         setTimeout(function() {
+//             let diceResult = getRandomInt(1, 6);
+//             document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
+//             playerIndex = (playerIndex + 1) % numPlayer;
+//             rollThatDice();
+//         }, 2000);
+//     } else {
+//         playerIndex = (playerIndex + 1) % numPlayer;
+//     }
+// }
+
+// function handleMovement() {
+//     playerDice[playerIndex] += parseInt(document.getElementsByClassName('dice-result')[0].innerHTML)
+//     let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1)
+//     newPos.appendChild(document.getElementById(`user-${playerIndex}`))
+//     playerIndex = (playerIndex + 1) % numPlayer
+// }
 
 document.getElementsByClassName('roll-dice')[0].addEventListener("click", function (event) {
     rollThatDice();
