@@ -16,10 +16,10 @@
 
     // Sticky Navbar
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $(".sticky-top").addClass("shadow-sm").css("top", "0px");
+        if ($(this).scrollTop() > 50) {
+            $(".navbar").addClass("scrolled");
         } else {
-            $(".sticky-top").removeClass("shadow-sm").css("top", "-100px");
+            $(".navbar").removeClass("scrolled");
         }
     });
 
@@ -78,5 +78,4 @@
 
         portfolioIsotope.isotope({ filter: $(this).data("filter") });
     });
-
 })(jQuery);
