@@ -1,22 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-<<<<<<< HEAD
-    <div class="container col-xl-7 col-xxl-5">
-        <div class="row align-items-center py-5">
-            <h2 class="text-center mb-4"style="padding-top: 150px">Register</h2>
-            <div class="col-lg-12 mx-auto col-lg-5">
-                <form action="{{ route('store') }}" method="POST" class="p-4 p-md-5 border rounded-3 bg-light"
-                    autocomplete="off">
-                    @csrf
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
-                            name="name" placeholder="name" value="{{ old('name') }}">
-                        <label for="name">Name</label>
-                        @error('name')
-                            <div class="text-danger">
-                                {{ $message }}
-=======
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -38,7 +22,6 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
->>>>>>> 4b97202c344790aff67c33da0482e30ae8441af2
                             </div>
                         </div>
 
