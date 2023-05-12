@@ -8,7 +8,7 @@ use App\Http\Controllers\BoardController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\User\HomeController;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -81,3 +81,13 @@ Route::get('/board', function () {
 
 // Route Player
 // Route::get('players', [PlayerController::class, 'index']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('admin/home', [App\Http\Controllers\HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
+Route::resource('dashboard/users', \App\Http\Controllers\Admin\AdminUserController::class)->except('show')->middleware('is_admin');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
