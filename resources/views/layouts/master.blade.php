@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Securex - CCTV Camera Website Template</title>
+    <title>M O P U T A</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('landpage/img/logo.jpg') }}"  rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,29 +43,27 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h2 class="m-0 text-primary">Securex</h2>
-        </a>
+        <a href="{{ route('home') }}" class="navbar-brand ms-4 ms-lg-5">
+            <img class="img-fluid rounded logo" src="{{ asset('landpage/img/logo.jpg') }}" alt="">
+    </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
-                <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
+                <a href="{{ route('home') }}" class="nav-item nav-link">Beranda</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
+                <a href="{{ route('project') }}" class="nav-item nav-link">Fitur</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Main</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="/login" class="dropdown-item">Login</a>
-                        <a href="/register" class="dropdown-item">Register</a>
+                        <a href="/login" class="dropdown-item">Masuk</a>
+                        <a href="/register" class="dropdown-item">Daftar</a>
                     </div>
                 </div>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>

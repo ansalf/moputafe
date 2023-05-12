@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
-@section('container')
+@section('content')
     <div class="container col-xl-7 col-xxl-5">
         <div class="row align-items-center py-5">
             <h2 class="text-center mb-4"style="padding-top: 150px">Register</h2>
