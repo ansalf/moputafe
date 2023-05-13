@@ -138,7 +138,7 @@
                         <div class="price rotate_kiri">£180</div>
                     </div>
                 </div>
-                <div class="space railroad" id="16">
+                <div class="space property" id="16">
                     <div class="container">
                         <div class="name rotate_kiri">Landmark</div>
                         <i class="drawing fa fa-building"></i>
@@ -159,7 +159,16 @@
                         <div class="price rotate_kiri">£140</div>
                     </div>
                 </div>
-                <div class="space utility electric-company" id="13">
+
+                <!-- <div class="space fee luxury-tax property" id="39">
+                    <div class="container">
+                        <div class="name rotate_kanan">GST</div>
+                        <div class="drawing fa fa-database"></div>
+                        <div class="price rotate_kanan">Pay £200</div>
+                    </div>
+                </div> -->
+
+                <div class="space utility electric-company property" id="13">
                     <div class="container">
                         <div class="name rotate_kiri">JP Morgan</div>
                         <i class="drawing fa fa-university"></i>
@@ -287,7 +296,16 @@
                         <div class="price rotate_kanan">£320</div>
                     </div>
                 </div>
-                <div class="space railroad" id="36">
+
+                <!-- <div class="space property" id="32">
+                    <div class="container">
+                        <div class="color-bar green"></div>
+                        <div class="name rotate_kanan">Menteng</div>
+                        <div class="price rotate_kanan">£300</div>
+                    </div>
+                </div> -->
+
+                <div class="space property" id="36">
                     <div class="container">
                         <div class="name rotate_kanan">Sunteck </div>
                         <i class="drawing fa fa-building"></i>
@@ -307,11 +325,11 @@
                         <div class="price rotate_kanan">£350</div>
                     </div>
                 </div>
-                <div class="space fee luxury-tax" id="39">
+                <div class="space fee luxury-tax property" id="39">
                     <div class="container">
                         <div class="name rotate_kanan">GST</div>
                         <div class="drawing fa fa-database"></div>
-                        <div class="instructions rotate_kanan">Pay £200</div>
+                        <div class="price rotate_kanan">Pay £200</div>
                     </div>
                 </div>
                 <div class="space property" id="40">

@@ -80,15 +80,15 @@ function handleMovement() {
     let newPos = document.getElementById((playerDice[playerIndex] % 40) + 1);
     newPos.appendChild(document.getElementById(`user-${playerIndex}`));
     
-    if (playerIndex !== 0) {
+    if (playerIndex > 0) {
         setTimeout(function() {
             let diceResult = getRandomInt(1, 6);
             document.getElementsByClassName('dice-result')[0].innerHTML = diceResult;
             playerIndex = (playerIndex + 1) % numPlayer;
-            if (playerIndex === 0) {
+            if (playerIndex === numPlayer-1) {
                 rollThatDice();
             } else {
-                if (playerIndex === 5) {
+                if (playerIndex > 0) {
                     rollThatDice();
                 } else {
                     handleMovement();
