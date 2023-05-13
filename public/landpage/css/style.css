@@ -87,6 +87,7 @@
 }
 
 /*** Navbar ***/
+
 .navbar {
     background-color: transparent;
     transition: background-color 0.5s ease-in-out;
@@ -167,6 +168,10 @@
 }
 
 /*** Header ***/
+.justify {
+    text-align: justify;
+}
+
 .header-carousel .carousel-inner {
     position: absolute;
     width: 100%;

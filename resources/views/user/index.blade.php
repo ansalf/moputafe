@@ -10,15 +10,23 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution For
-                                    You</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <h5 class="display-3 text-white animated slideInDown mb-4">
+                                    MOPUTA
+                                    <br>
+                                    <span class="text-primary animated slideInUp">
+                                        Monopoly Punya Cerita
+                                </h5>
+                                <p class="fs-5 text-white mb-4 pb-2">
+                                    Rasakan keseruan dan tantangan yang tak terlupakan dengan memainkan monopoly
+
+                                </p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                    Main
+                                </a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                    Daftar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -30,15 +38,22 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For All
-                                    Business</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <h5 class="display-3 text-white animated slideInDown mb-4">
+                                    MOPUTA
+                                    <br>
+                                    <span class="text-primary animated slideInUp">
+                                        Monopoly Punya Cerita
+                                </h5>
+                                <p class="fs-5 text-white mb-4 pb-2">
+                                    Bermainlah tanpa tekanan dan jadilah pemenang dalam kehidupan
+                                </p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                    Main
+                                </a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                    Daftar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -50,15 +65,22 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Security
-                                    System</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
-                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <h5 class="display-3 text-white animated slideInDown mb-4">
+                                    MOPUTA
+                                    <br>
+                                    <span class="text-primary animated slideInUp">
+                                        Monopoly Punya Cerita
+                                </h5>
+                                <p class="fs-5 text-white mb-4 pb-2">
+                                    Temukan berbagai macam solusi untuk kamu yang sedang mengalami masalah
+                                </p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                    Main
+                                </a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                    Daftar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -80,10 +102,11 @@
                             </div>
                             <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
                         </div>
-                        <h5 class="text-white">Home Security</h5>
+                        <h5 class="text-white">Dadu</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
-                            et</span>
+                        <span class="justify">Dadu dengan desain unik yang dapat diputar ketika pemain ingin menjalankan karakternya.
+                            Terdiri dari enam angka yang dapat diperoleh ketika memainkannya.
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -94,10 +117,12 @@
                             </div>
                             <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
                         </div>
-                        <h5 class="text-white">Access Control</h5>
+                        <h5 class="text-white">Papan</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
-                            et</span>
+                        <span class="justify">
+                            Papan MOPUTA memiliki konsep yang sama dengan papan monopoly pada umumnya. Namun
+                            papan ini berisi tentang masalah dan solusi.
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -108,10 +133,12 @@
                             </div>
                             <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
                         </div>
-                        <h5 class="text-white">24/7 Support</h5>
+                        <h5 class="text-white">Pemain</h5>
                         <hr class="w-25">
-                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo clita
-                            et</span>
+                        <span class="justify">
+                            Pemain dapat bermain menggunakan tanden monopoly.
+                            Tanden tersebut berbentuk karakter atau icon berdasarkan pilihan yang telah ditampilkan.
+                        </span>
                     </div>
                 </div>
             </div>
@@ -419,8 +446,11 @@
                             <p class="text-primary mb-2">Smart Home</p>
                             <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="{{ asset('landpage/img/portfolio-6.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1"
+                                    href="{{ asset('landpage/img/portfolio-6.jpg') }}" data-lightbox="portfolio"><i
+                                        class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -498,9 +528,9 @@
                             <img class="img-fluid" src="{{ asset('landpage/img/team-1.jpg') }}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
+                                        class="fab fa-discord"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
+                                        class="fab fa-github"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
                                         class="fab fa-instagram"></i></a>
                             </div>
@@ -517,9 +547,9 @@
                             <img class="img-fluid" src="{{ asset('landpage/img/team-2.jpg') }}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
+                                        class="fab fa-discord"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
+                                        class="fab fa-github"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
                                         class="fab fa-instagram"></i></a>
                             </div>
@@ -536,9 +566,9 @@
                             <img class="img-fluid" src="{{ asset('landpage/img/team-3.jpg') }}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
+                                        class="fab fa-discord"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
+                                        class="fab fa-github"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
                                         class="fab fa-instagram"></i></a>
                             </div>
@@ -555,9 +585,9 @@
                             <img class="img-fluid" src="{{ asset('landpage/img/team-4.jpg') }}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
+                                        class="fab fa-discord"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
+                                        class="fab fa-github"></i></a>
                                 <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
                                         class="fab fa-instagram"></i></a>
                             </div>
