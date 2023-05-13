@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Auth;
 // });
 
 // Route landing page
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 
