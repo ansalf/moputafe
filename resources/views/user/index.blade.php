@@ -104,9 +104,9 @@
                         </div>
                         <h5 class="text-white">Dadu</h5>
                         <hr class="w-25">
-                        <span class="justify">Dadu dengan desain unik yang dapat diputar ketika pemain ingin menjalankan karakternya.
+                        <p class="justify">Dadu dengan desain unik yang dapat diputar ketika pemain ingin menjalankan karakternya.
                             Terdiri dari enam angka yang dapat diperoleh ketika memainkannya.
-                        </span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -119,10 +119,10 @@
                         </div>
                         <h5 class="text-white">Papan</h5>
                         <hr class="w-25">
-                        <span class="justify">
+                        <p class="justify">
                             Papan MOPUTA memiliki konsep yang sama dengan papan monopoly pada umumnya. Namun
                             papan ini berisi tentang masalah dan solusi.
-                        </span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -133,12 +133,12 @@
                             </div>
                             <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
                         </div>
-                        <h5 class="text-white">Pemain</h5>
+                        <h5 class="text-white">Token</h5>
                         <hr class="w-25">
-                        <span class="justify">
-                            Pemain dapat bermain menggunakan tanden monopoly.
-                            Tanden tersebut berbentuk karakter atau icon berdasarkan pilihan yang telah ditampilkan.
-                        </span>
+                        <p class="justify">
+                            Pemain dapat bermain menggunakan token monopoly.
+                            Token tersebut dapat dipilih berdasarkan pilihan yang telah ditampilkan.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -159,9 +159,12 @@
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-4">About Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h1 class="display-5 mb-4">Tentang Kami</h1>
+                        <p class="mb-4 pb-2 justify">
+                            Monopoly pada umumnya bukan hanya sekedar permainan papan yang menyenangkan, tapi juga merupakan
+                            alat pembelajaran yang sangat berharga. Dalam permainan MOPUTA, pemain akan bertemu dengan
+                            nasalah studi kasus yang dapat pemain lihat serta didalamnya terdapat solusi untuk menyelesaikannya.
+                        </p>
                         <div class="row g-4 mb-4 pb-3">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="d-flex align-items-center">
@@ -169,24 +172,24 @@
                                         <img class="img-fluid" src="landpage/img/icon/icon-1.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
+                                        <h2 class="mb-1" data-toggle="counter-up">5800</h2>
+                                        <p class="fw-medium text-primary mb-0">Pemain Senang</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="landpage/img/icon/icon-5.png" alt="Icon">
+                                        <img class="img-fluid" src="landpage/img/icon/icon-9.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
+                                        <h2 class="mb-1" data-toggle="counter-up">4769</h2>
+                                        <p class="fw-medium text-primary mb-0">Masalah Selesai</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Main</a>
                     </div>
                 </div>
             </div>
@@ -200,53 +203,57 @@
         <div class="container">
             <div class="text-center">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Services</h1>
+                <h1 class="display-5 mb-5">Fitur</h1>
             </div>
             <div class="row g-0 service-row">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="landpage/img/icon/icon-6.png" alt="Icon">
+                            <img class="img-fluid" src="landpage/img/icon/icon-4.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Commercial CCTV System</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <h4 class="mb-3">Papan</h4>
+                        <p class="mb-4 justify ">
+                            Berisi berbagai studi kasus dan penyelesaian masalah yang dihadapi.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="landpage/img/icon/icon-8.png" alt="Icon">
+                            <img class="img-fluid" src="landpage/img/icon/icon-2.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Finger Print Access</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <h4 class="mb-3">Token</h4>
+                        <p class="mb-4 justify">
+                            Token yang dapat digunakan oleh pemain ada baloon, cone, pawn, dan unicorn.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="landpage/img/icon/icon-9.png" alt="Icon">
+                            <img class="img-fluid" src="landpage/img/icon/icon-3.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Fire Detection And Safety</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <h4 class="mb-3">Dadu</h4>
+                        <p class="mb-4 justify">
+                            Dadu yang digunakan dapat diputar secara virtual seperti dadu pada umumnya.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="service-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="landpage/img/icon/icon-3.png" alt="Icon">
+                            <img class="img-fluid" src="landpage/img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h4 class="mb-3">Smart Home Security</h4>
-                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <h4 class="mb-3">Studi Kasus</h4>
+                        <p class="mb-4 justify">
+                            Ketika ditekan oleh pemain, maka akan muncul berbagai masalah dan solusi.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Service End -->1
 
 
     <!-- Feature Start -->
@@ -256,18 +263,33 @@
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Why Choose Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h1 class="display-5 mb-5">Kenapa MOPUTA?</h1>
+                        <p class="mb-4 pb-2 justify">
+                            MOPUTA adalah permainan yang dirancang untuk mengajarkan nilai-nilai positif dan membantu anak-anak untuk belajar
+                            mengatasi masalah dalam kehidupan sehari-hari. Alur permainan ini mengikuti kisah seseorang anak yang menghadapi
+                            berbagai masalah dengan keluarganya. Dalam permainan ini, para pemain akan menempuh perjalanan melalui berbagai
+                            studi kasus yang dilengkapi oleh berbagai solusi.
+                        </p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="landpage/img/icon/icon-7.png" alt="Icon">
+                                        <img class="img-fluid" src="landpage/img/icon/icon-5.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-primary mb-2">Trusted</p>
-                                        <h5 class="mb-0">Security</h5>
+                                        <p class="text-primary mb-2">Keamanan</p>
+                                        <h5 class="mb-0">Terpercaya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="landpage/img/icon/icon-1.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Pelayanan</p>
+                                        <h5 class="mb-0">Ramah</h5>
                                     </div>
                                 </div>
                             </div>
@@ -277,30 +299,19 @@
                                         <img class="img-fluid" src="landpage/img/icon/icon-10.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-primary mb-2">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
+                                        <p class="text-primary mb-2">Tampilan</p>
+                                        <h5 class="mb-0">Menarik</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="landpage/img/icon/icon-3.png" alt="Icon">
+                                        <img class="img-fluid" src="landpage/img/icon/icon-8.png" alt="Icon">
                                     </div>
                                     <div class="ms-4">
-                                        <p class="text-primary mb-2">Smart</p>
-                                        <h5 class="mb-0">Systems</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="landpage/img/icon/icon-2.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-primary mb-2">24/7 Hours</p>
-                                        <h5 class="mb-0">Support</h5>
+                                        <p class="text-primary mb-2">Permainan</p>
+                                        <h5 class="mb-0">Santai</h5>
                                     </div>
                                 </div>
                             </div>
@@ -323,14 +334,14 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Projects</h1>
+                <h1 class="display-5 mb-5">Studi Kasus</h1>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Complete Projects</li>
-                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                        <li class="mx-2 active" data-filter="*">Semua masalah</li>
+                        <li class="mx-2" data-filter=".first">Masalah selesai</li>
+                        <li class="mx-2" data-filter=".second">Sedang dikerjakan</li>
                     </ul>
                 </div>
             </div>
@@ -375,7 +386,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 portfolio-item f
+                ]
+                irst wow fadeInUp" data-wow-delay="0.5s">
+
                     <div class="portfolio-inner">
                         <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-3.jpg') }}" alt="">
                         <div class="text-center p-4">
@@ -473,36 +487,37 @@
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Free Quote</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <h1 class="display-5 mb-5">MPT Form</h1>
+                        <p class="mb-4 pb-2 justify">
+                            Mohon lengkapi formulir dibawah ini untuk membantu kami memahami masalah yang kamu hadapi
+                            serta memberikan saran dan solusi yang tepat untuk memperbaiki hubungan keluarga.
+                        </p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name"
+                                    <input type="text" class="form-control border-0" placeholder="Nama Lengkap"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email"
+                                    <input type="email" class="form-control border-0" placeholder="Umur"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile"
+                                    <input type="text" class="form-control border-0" placeholder="our@gmail.com"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                        <option selected>Jenis Kelamin</option>
+                                        <option value="1">Laki-laki</option>
+                                        <option value="2">Perempuan</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                    <textarea class="form-control border-0" placeholder="Suasana Hati"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
                                 </div>
                             </div>
                         </form>
@@ -519,7 +534,7 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Team Members</h1>
+                <h1 class="display-5 mb-5">MOPUTA TEAM</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -536,8 +551,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <span class="text-primary">Designation</span>
+                            <h5 class="mb-0">Ach Althaaf Cahya Ramadhan</h5>
+                            <span class="text-primary">Developer</span>
                         </div>
                     </div>
                 </div>
@@ -555,8 +570,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <span class="text-primary">Designation</span>
+                            <h5 class="mb-0">Anissa Alifia Putri</h5>
+                            <span class="text-primary">Developer</span>
                         </div>
                     </div>
                 </div>
@@ -574,8 +589,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <span class="text-primary">Designation</span>
+                            <h5 class="mb-0">Adil Zakaria</h5>
+                            <span class="text-primary">Developer</span>
                         </div>
                     </div>
                 </div>
@@ -593,8 +608,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <span class="text-primary">Designation</span>
+                            <h5 class="mb-0">Enanto Harun Satrio</h5>
+                            <span class="text-primary">Developer</span>
                         </div>
                     </div>
                 </div>
@@ -609,7 +624,7 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Testimonial</h1>
+                <h1 class="display-5 mb-5">Testimoni</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center"
@@ -617,24 +632,24 @@
                     <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                         Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
                         clita.</p>
-                    <h4>Client Name</h4>
-                    <span class="text-primary">Profession</span>
+                    <h4>Unknown7</h4>
+                    <span class="text-primary">Mahasiswa</span>
                 </div>
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='landpage/img/testimonial-2.jpg' alt=''>">
                     <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                         Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
                         clita.</p>
-                    <h4>Client Name</h4>
-                    <span class="text-primary">Profession</span>
+                    <h4>Unknown9</h4>
+                    <span class="text-primary">Mahasiswa</span>
                 </div>
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='landpage/img/testimonial-3.jpg' alt=''>">
                     <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                         Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
                         clita.</p>
-                    <h4>Client Name</h4>
-                    <span class="text-primary">Profession</span>
+                    <h4>Unknown4</h4>
+                    <span class="text-primary">Mahasiswa</span>
                 </div>
             </div>
         </div>
