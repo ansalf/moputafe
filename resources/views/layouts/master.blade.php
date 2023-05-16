@@ -45,7 +45,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav  class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5 navbar-scrolled">
+    <nav  class="navbar navbar-expand-lg bg-white sticky-top p-0 px-4 px-lg-5 navbar-scrolled">
         <a href="{{ route('home') }}" class="navbar-brand ms-4 ms-lg-5">
             <img class="img-fluid rounded logo" src="{{ asset('landpage/img/logo.jpg') }}" alt="">
         </a>
