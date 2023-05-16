@@ -86,9 +86,9 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">MOPUTA | Monopoly</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Semarang, 5, Malang, INA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 896-2353-8410</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>mpt.moputa@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
                             class="fab fa-discord"></i></a>
@@ -99,20 +99,20 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Business Security</a>
-                    <a class="btn btn-link" href="">Fire Detection</a>
-                    <a class="btn btn-link" href="">Alarm Systems</a>
-                    <a class="btn btn-link" href="">CCTV & Video</a>
-                    <a class="btn btn-link" href="">Smart Home</a>
+                    <h5 class="text-light mb-4">Studi Kasus</h5>
+                    <a class="btn btn-link" href="">Depresi</a>
+                    <a class="btn btn-link" href="">Malas</a>
+                    <a class="btn btn-link" href="">Akademis</a>
+                    <a class="btn btn-link" href="">Insecure</a>
+                    <a class="btn btn-link" href="">Bullying</a>
+                    <a class="btn btn-link" href="">Sosial</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h5 class="text-light mb-4">Menu</h5>
+                    <a class="btn btn-link" href="">Tentang Kami</a>
+                    <a class="btn btn-link" href="">Fitur</a>
+                    <a class="btn btn-link" href="">Layanan</a>
+                    <a class="btn btn-link" href="">Main</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">

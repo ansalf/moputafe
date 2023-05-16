@@ -197,7 +197,6 @@
     </div>
     <!-- About End -->
 
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -348,17 +347,15 @@
             <div class="row g-4 portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-1.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/depresi.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Depresi</p>
+                            <h5 class="lh-base mb-0">Perilaku untuk mengakhiri hidup</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-1.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/depresi.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -368,17 +365,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-2.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/malas.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Malas</p>
+                            <h5 class="lh-base mb-0">Kurang produktif</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-2.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/malas.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -389,19 +384,16 @@
                 <div class="col-lg-4 col-md-6 portfolio-item f
                 ]
                 irst wow fadeInUp" data-wow-delay="0.5s">
-
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-3.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/akademis.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Akademis</p>
+                            <h5 class="lh-base mb-0">Anak merasa tidak nyaman</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-3.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/akademis.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -411,17 +403,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-4.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/insecure.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Insecure</p>
+                            <h5 class="lh-base mb-0">Rasa Kurang Percaya Diri</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-4.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/insecure.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -431,17 +421,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-5.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/bullying.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Bullying</p>
+                            <h5 class="lh-base mb-0">Banyak Perundungan yang terjadi</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-5.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/bullying.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -451,17 +439,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="{{ asset('landpage/img/portfolio-6.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('landpage/img/sosial.jpg') }}" alt="">
                         <div class="text-center p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <p class="text-primary mb-2">Sosial</p>
+                            <h5 class="lh-base mb-0">Mengalami Kesulitan Bergaul</h5>
                         </div>
                         <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square btn-primary rounded-circle mx-1"
-                                    href="{{ asset('landpage/img/portfolio-6.jpg') }}" data-lightbox="portfolio"><i
+                                    href="{{ asset('landpage/img/sosial.jpg') }}" data-lightbox="portfolio"><i
                                         class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
                                         class="fa fa-link"></i></a>
@@ -551,7 +537,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Ach Althaaf Cahya Ramadhan</h5>
+                            <h5 class="mb-0">Ach Althaaf Cahya R</h5>
                             <span class="text-primary">Developer</span>
                         </div>
                     </div>
@@ -629,25 +615,32 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='landpage/img/testimonial-1.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                        clita.</p>
+                    <p class="fs-5">
+                        Saya merasa sangat terisolasi setelah orang tua saya bercerai,
+                        tetapi dengan bantuan game MOPUTA,
+                        saya merasa lebih kuat dan lebih siap untuk mengatasi rasa sakit saya.
+                        Saya sangat berterima kasih atas dukungan mereka.
+                    </p>
                     <h4>Unknown7</h4>
                     <span class="text-primary">Mahasiswa</span>
                 </div>
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='landpage/img/testimonial-2.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                        clita.</p>
+                    <p class="fs-5">
+                        MOPUTA telah membantu saya merasa
+                        lebih tenang dan lebih stabil dalam hidup saya setelah masalah keluarga yang rumit.
+                        Bermain game monopoly dengan segala informasi yang berguna. Benar-benar membantu saya dalam mengatasi rasa kesepian dan kecemasan.
+                    </p>
                     <h4>Unknown9</h4>
-                    <span class="text-primary">Mahasiswa</span>
+                    <span class="text-primary">Pelajar</span>
                 </div>
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='landpage/img/testimonial-3.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                        Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                        clita.</p>
+                    <p class="fs-5">
+                        Saya tidak akan pernah menyangka bahwa game online bisa seefektif ini.
+                        Melalui MOPUTA, saya telah belajar bagaimana memahami perasaan saya sendiri dan
+                        bagaimana cara mengatasi stres dari masalah keluarga yang kompleks.
+                    </p>
                     <h4>Unknown4</h4>
                     <span class="text-primary">Mahasiswa</span>
                 </div>
