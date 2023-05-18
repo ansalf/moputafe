@@ -90,8 +90,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1460px;
-    height: 1050px;
+    width: 1430px;
+    height: 1030px;
     position: absolute;
     background-color: rgba(103, 101, 101, 0.8);
     color: white;
@@ -103,12 +103,17 @@ body {
   }
   
   .playerSettings {
-    width: 400px;
-    height: 300px;
+    width: 780px;
+    height: 550px;
     background-color: #0072bc;
     padding: 0px 50px 100px 50px;
     border: 10px solid #ffffff;
     border-radius: 10px;
+  }
+
+  .label{
+    width: 104px;
+    height: 800px;
   }
   
   .playerBar {

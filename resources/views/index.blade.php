@@ -1,3 +1,7 @@
+@extends('layouts.master')
+
+@section('content')
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,35 +21,40 @@
     <div class="gameArea">
         <div class="startPage">
             <div class="playerSettings">
+                <br/><br/>
                 <h1>Welcome to M O P U T A</h1>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
                         <img src="./img/player1.png" height="40px" />
                     </div>
-                    <label for="player1Name">Player 1 Nama:</label><input id="typePlayer1Name" name="player1Name"
-                        type="text" placeholder="Player 1" maxlength="8" />
+                    <label for="player1Name">Player 1 Nama :</label><input id="typePlayer1Name" name="player"
+                        type="text" placeholder="Player 1" maxlength="5" />
                 </div>
+                <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
                         <img src="./img/player2.png" height="40px" />
                     </div>
-                    <label for="player2Name">Player 2 Nama</label><input id="typePlayer2Name" name="player2Name"
+                    <label for="player2Name">Player 2 Nama :</label><input id="typePlayer2Name" name="player2Name"
                         type="text" placeholder="Player 2" maxlength="8" />
                 </div>
+                <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
                         <img src="./img/player3.png" height="40px" />
                     </div>
-                    <label for="player3Name">Player 3 Nama</label><input id="typePlayer3Name" name="player3Name"
+                    <label for="player3Name">Player 3 Nama :</label><input id="typePlayer3Name" name="player3Name"
                         type="text" placeholder="Player 3" maxlength="8" />
                 </div>
+                <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
                         <img src="./img/player4.png" height="40px" />
                     </div>
-                    <label for="player4Name">Player 4 Nama:</label><input id="typePlayer4Name" name="player4Name"
+                    <label for="player4Name">Player 4 Nama :</label><input id="typePlayer4Name" name="player4Name"
                         type="text" placeholder="Player 4" maxlength="8" />
                 </div>
+                <br/>
                 <button class="startBtn" onclick="startGame()">Start Game</button>
             </div>
         </div>
@@ -781,3 +790,4 @@
 </body>
 
 </html>
+@endsection
