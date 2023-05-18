@@ -852,7 +852,7 @@ function nextPlayer() {
         } else {
             playerTurnIndex = 1;
         }
-        // change 目前玩家 and right bottom border
+       
         document.getElementById("playernow").innerText =
             players[playerTurnIndex - 1].name;
         document
