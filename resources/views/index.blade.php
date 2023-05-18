@@ -25,7 +25,7 @@
                 <h1>Welcome to M O P U T A</h1>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
-                        <img src="./img/player1.png" height="40px" />
+                        <img src="{{ asset('img/icon/cone/blue.png') }}" height="40px"/>
                     </div>
                     <label for="player1Name">Player 1 Nama :</label><input id="typePlayer1Name" name="player"
                         type="text" placeholder="Player 1" maxlength="5" />
@@ -33,7 +33,7 @@
                 <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
-                        <img src="./img/player2.png" height="40px" />
+                        <img src="{{ asset('img/icon/cone/green.png') }}" height="40px" />
                     </div>
                     <label for="player2Name">Player 2 Nama :</label><input id="typePlayer2Name" name="player2Name"
                         type="text" placeholder="Player 2" maxlength="8" />
@@ -41,7 +41,7 @@
                 <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
-                        <img src="./img/player3.png" height="40px" />
+                        <img src="{{ asset('img/icon/cone/red.png') }}" height="40px" />
                     </div>
                     <label for="player3Name">Player 3 Nama :</label><input id="typePlayer3Name" name="player3Name"
                         type="text" placeholder="Player 3" maxlength="8" />
@@ -49,7 +49,7 @@
                 <br/>
                 <div class="playerBar">
                     <div class="playerIcon startPagePlayer" style="width: 60px">
-                        <img src="./img/player4.png" height="40px" />
+                        <img src="{{ asset('img/icon/cone/yellow.png') }}" height="40px" />
                     </div>
                     <label for="player4Name">Player 4 Nama :</label><input id="typePlayer4Name" name="player4Name"
                         type="text" placeholder="Player 4" maxlength="8" />
@@ -71,7 +71,7 @@
                     </div>
                     <div id="player1EndInfo" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player1.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/blue.png') }}" height="40px" />
                             <div class="playerName">player 1</div>
                         </div>
                         <div class="playerMoney playerEndMoney">$15000</div>
@@ -80,7 +80,7 @@
                     </div>
                     <div id="player2EndInfo" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player2.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/green.png') }}" height="40px"/>
                             <div class="playerName">Player 2</div>
                         </div>
                         <div class="playerMoney playerEndMoney">$15000</div>
@@ -89,7 +89,7 @@
                     </div>
                     <div id="player3EndInfo" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player3.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/red.png') }}" height="40px"/>
                             <div class="playerName">Player 3</div>
                         </div>
                         <div class="playerMoney playerEndMoney">$15000</div>
@@ -98,7 +98,7 @@
                     </div>
                     <div id="player4EndInfo" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player4.png" height="40px" />
+                        <img src="{{ asset('img/icon/cone/yellow.png') }}" height="40px"/>
                             <div class="playerName">Player 4</div>
                         </div>
                         <div class="playerMoney playerEndMoney">$15000</div>
@@ -135,7 +135,7 @@
                         <div class="propertyheader">
                             <div class="property-name">Nama Tempat</div>
                         </div>
-                        <div class="property-price">Harga Tanah:</div>
+                        <div class="property-price">Harga Tanah: </div>
                         <div class="property-description">
                             <div class="property-owner">Pemilik: Tidak Ada</div>
                             <div class="property-value">Nilai properti saat ini:</div>
@@ -158,7 +158,7 @@
                         <div class="propertyheader">
                             <div class="property-name">nama tempat</div>
                         </div>
-                        <div class="property-price">harga tanah:</div>
+                        <div class="property-price">harga tanah: </div>
                         <div class="property-description">
                             <div class="property-owner">Pemilik: Tidak ada</div>
                             <div class="property-value">Nilai properti saat ini:</div>
@@ -747,7 +747,7 @@
                     </div>
                     <div id="player1Info" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player1.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/blue.png') }}" height="40px"/>
                             <div id="player1Name" class="playerName">player 1</div>
                         </div>
                         <div id="player1Money" class="playerMoney">$15000</div>
@@ -756,7 +756,7 @@
                     </div>
                     <div id="player2Info" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player2.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/green.png') }}" height="40px"/>
                             <div id="player2Name" class="playerName">Player 2</div>
                         </div>
                         <div id="player2Money" class="playerMoney">$15000</div>
@@ -765,7 +765,7 @@
                     </div>
                     <div id="player3Info" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player3.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/red.png') }}" height="40px"/>
                             <div id="player3Name" class="playerName">Player 3</div>
                         </div>
                         <div id="player3Money" class="playerMoney">$15000</div>
@@ -774,7 +774,7 @@
                     </div>
                     <div id="player4Info" class="playerInfo">
                         <div class="playerIconBar">
-                            <img src="./img/player4.png" height="40px" />
+                            <img src="{{ asset('img/icon/cone/yellow.png') }}" height="40px"/>
                             <div id="player4Name" class="playerName">Player 4</div>
                         </div>
                         <div id="player4Money" class="playerMoney">$15000</div>
