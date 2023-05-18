@@ -1,6 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5 mb-5">
+            <div class="container py-5">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Reset</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-white" href="#">Beranda</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Reset</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

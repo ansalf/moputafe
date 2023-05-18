@@ -538,7 +538,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ach Althaaf Cahya R</h5>
-                            <span class="text-primary">Developer</span>
+                            <span class="text-primary">220535609181</span>
                         </div>
                     </div>
                 </div>
@@ -557,7 +557,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Anissa Alifia Putri</h5>
-                            <span class="text-primary">Developer</span>
+                            <span class="text-primary">220535600012</span>
                         </div>
                     </div>
                 </div>
@@ -576,7 +576,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Adil Zakaria</h5>
-                            <span class="text-primary">Developer</span>
+                            <span class="text-primary">220535600453</span>
                         </div>
                     </div>
                 </div>
@@ -595,7 +595,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Enanto Harun Satrio</h5>
-                            <span class="text-primary">Developer</span>
+                            <span class="text-primary">220535600376</span>
                         </div>
                     </div>
                 </div>

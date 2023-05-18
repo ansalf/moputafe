@@ -81,7 +81,7 @@ Route::get('/board', function () {
 });
 
 Route::get('/index', function () {
-    return view('index');
+    return view('index_new');
 });
 
 // Route Player
