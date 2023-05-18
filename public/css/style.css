@@ -100,15 +100,22 @@ body {
     text-align: center;
     z-index: 10;
     margin-left: 210px;
+<<<<<<< HEAD
 }
 
 .playerSettings {
+=======
+  }
+  
+  .playerSettings {
+>>>>>>> f9f8f8f972986c2ff8d5e4a49c3124f29a9b7384
     width: 780px;
     height: 550px;
     background-color: #0072bc;
     padding: 0px 50px 100px 50px;
     border: 10px solid #ffffff;
     border-radius: 10px;
+<<<<<<< HEAD
 }
 
 .label {
@@ -117,6 +124,16 @@ body {
 }
 
 .playerBar {
+=======
+  }
+
+  .label{
+    width: 104px;
+    height: 800px;
+  }
+  
+  .playerBar {
+>>>>>>> f9f8f8f972986c2ff8d5e4a49c3124f29a9b7384
     display: flex;
     align-items: center;
     justify-content: center;

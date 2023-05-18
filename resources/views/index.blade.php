@@ -125,7 +125,7 @@
                 </div>
                 <div class="div0 square corner">
                     <div id="gocontainer">
-                        <img src="./img/GO.svg" />
+                        {{-- <img src="./img/GO.svg" /> --}}
                     </div>
                 </div>
                 <div class="div1 square horizontal firstRow">
@@ -148,7 +148,7 @@
                 </div>
                 <div class="div2 squareh horizontal firstRow">
                     <div class="containerh">
-                        <img src="./img/chances-h.svg" />
+                        {{-- <img src="./img/chances-h.svg" /> --}}
                     </div>
                 </div>
                 <div class="div3 square horizontal firstRow">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="div7 squareh horizontal firstRow">
                     <div class="containerh">
-                        <img src="./img/hke.svg" />
+                        {{-- <img src="./img/hke.svg" /> --}}
                     </div>
                 </div>
                 <div class="div8 square horizontal firstRow">
@@ -266,7 +266,7 @@
                 </div>
                 <div class="div10 squareb corner">
                     <div id="freeparkingcontainer">
-                        <img src="./img/freeparking.svg" />
+                        {{-- <img src="./img/freeparking.svg" /> --}}
                     </div>
                 </div>
                 <div class="div11 square vertical secondRow">
@@ -289,7 +289,7 @@
                 </div>
                 <div class="div12 squarev vertical secondRow">
                     <div class="containerv">
-                        <img src="./img/incometax.svg" />
+                        {{-- <img src="./img/incometax.svg" /> --}}
                     </div>
                 </div>
                 <div class="div13 square vertical secondRow">
@@ -366,7 +366,7 @@
                 </div>
                 <div class="div17 squarev vertical secondRow">
                     <div class="containerv">
-                        <img src="./img/chances-v.svg" />
+                        {{-- <img src="./img/chances-v.svg" /> --}}
                     </div>
                 </div>
                 <div class="div18 square vertical secondRow">
@@ -407,7 +407,7 @@
                 </div>
                 <div class="div20 square corner">
                     <div id="wheelcontainer">
-                        <img src="./img/wheel.svg" />
+                        {{-- <img src="./img/wheel.svg" /> --}}
                     </div>
                 </div>
                 <div class="div21 square horizontal thirdRow">
@@ -484,7 +484,7 @@
                 </div>
                 <div class="div25 squareh horizontal thirdRow">
                     <div class="containerh">
-                        <img src="./img/chances-h.svg" />
+                        {{-- <img src="./img/chances-h.svg" /> --}}
                     </div>
                 </div>
                 <div class="div26 square horizontal thirdRow">
@@ -507,7 +507,7 @@
                 </div>
                 <div class="div27 squareh horizontal thirdRow">
                     <div class="containerh">
-                        <img src="./img/stampduty.svg" />
+                        {{-- <img src="./img/stampduty.svg" /> --}}
                     </div>
                 </div>
                 <div class="div28 square horizontal thirdRow">
@@ -548,7 +548,7 @@
                 </div>
                 <div class="div30 squareb corner">
                     <div id="jailcontainer">
-                        <img src="./img/jail.svg" />
+                        {{-- <img src="./img/jail.svg" /> --}}
                     </div>
                 </div>
                 <div class="div31 square vertical fourthRow">
@@ -571,7 +571,7 @@
                 </div>
                 <div class="div32 squarev vertical fourthRow">
                     <div id="prop32" class="containerv">
-                        <img src="./img/luxurytax.svg" />
+                        {{-- <img src="./img/luxurytax.svg" /> --}}
                     </div>
                 </div>
                 <div class="div33 square vertical fourthRow">
@@ -648,7 +648,7 @@
                 </div>
                 <div class="div37 squarev vertical fourthRow">
                     <div class="containerv">
-                        <img src="./img/chances-v.svg" />
+                        {{-- <img src="./img/chances-v.svg" /> --}}
                     </div>
                 </div>
                 <div class="div38 square vertical fourthRow">
@@ -688,10 +688,11 @@
                     </div>
                 </div>
                 <div class="div40">
-                    <div>
-                        <h1 style="font-weight: bold">pemain saat ini</h1>
+                    <div style="margin-bottom:100px;">
+                        {{-- <h1 style="font-weight: bold margin-top:100px;">pemain saat ini</h1> --}}
+                        <div id="logo" style="margin-bottom: 170px;"><img src="{{ asset('img/moputa.png') }}" /></div>
+                        <br/>
                         <p id="playernow">player 1</p>
-                        <div id="logo"><img src="img/logo.svg" /></div>
                         <div id="dice-container"></div>
                         <button id="rolldice" onclick="rollAndDisplayDice()">
                             Dadu
