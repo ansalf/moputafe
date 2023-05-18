@@ -29,12 +29,12 @@ function CreatePlayer(
     propValue,
     ownedProp
 ) {
-    this.name = name; //名字
-    this.index = index; //index
-    this.money = money; //目前持有金錢
-    this.state = state; // active / jail / bankrupt
-    this.stop = stop; //隔離天數
-    this.position = position; //當前位置
+    this.name = name;
+    this.index = index;
+    this.money = money;
+    this.state = state;
+    this.stop = stop;
+    this.position = position;
     this.color = color;
     this.propValue = propValue;
     this.ownedProp = ownedProp;
@@ -60,10 +60,10 @@ function startGame() {
         player4Name = "Player 4";
     }
 
-    new CreatePlayer(player1Name, 1, 15000, "active", 0, 0, "#75C3D8", 0, []);
-    new CreatePlayer(player2Name, 2, 15000, "active", 0, 0, "#97BC9A", 0, []);
-    new CreatePlayer(player3Name, 3, 15000, "active", 0, 0, "#EF847C", 0, []);
-    new CreatePlayer(player4Name, 4, 15000, "active", 0, 0, "#C0B283", 0, []);
+    new CreatePlayer(player1Name, 1, 15000, "active", 0, 0, "#EF847C", 0, []);
+    new CreatePlayer(player2Name, 2, 15000, "active", 0, 0, "#DDD05B", 0, []);
+    new CreatePlayer(player3Name, 3, 15000, "active", 0, 0, "#97BC9A", 0, []);
+    new CreatePlayer(player4Name, 4, 15000, "active", 0, 0, "#75C3D8", 0, []);
     document.querySelector(`#player1Money`).innerText = `$${players[0].money}`;
     document.querySelector(`#player2Money`).innerText = `$${players[1].money}`;
     document.querySelector(`#player3Money`).innerText = `$${players[2].money}`;
@@ -146,28 +146,73 @@ function CreateFate(text, value) {
 new CreateFate("Dapatkan kupon $2000.", 2000);
 new CreateFate("Cinta online ditipu sebesar $1000.", -1000);
 new CreateFate("Nana menikah, dan bantuannya adalah $1000.", -1000);
-new CreateFate("Berpartisipasi dalam membuat bintang di kota dan membayar biaya pendaftaran sebesar $500.", -500);
+new CreateFate(
+    "Berpartisipasi dalam membuat bintang di kota dan membayar biaya pendaftaran sebesar $500.",
+    -500
+);
 new CreateFate("Memenangkan lotere Mark Six $1000.", 1000);
-new CreateFate("Jika Anda keluar tanpa masker, Anda akan didenda $2000.", -2000);
-new CreateFate("Dia tiba-tiba dicari oleh massa dan memperoleh $1.000 untuk menerima iklan.", 1000);
+new CreateFate(
+    "Jika Anda keluar tanpa masker, Anda akan didenda $2000.",
+    -2000
+);
+new CreateFate(
+    "Dia tiba-tiba dicari oleh massa dan memperoleh $1.000 untuk menerima iklan.",
+    1000
+);
 new CreateFate("Lotere vaksin, memenangkan $500.", 500);
 new CreateFate(
     "Selama epidemi, ada kekurangan bahan anti-epidemi, tetapi ada cinta di dunia, dan seseorang akan mensubsidi Anda $1000 untuk bahan.",
     1000
 );
-new CreateFate("Diundang oleh perusahaan untuk menghadiri acara luar negeri dan mendapatkan $3.000.", 3000);
-new CreateFate("Menerima posisi sebagai juru bicara sebuah perusahaan kecantikan dan memperoleh $2.000.", 2000);
-new CreateFate("Baru-baru ini, popularitasnya meningkat tajam, dan dia diundang untuk menjadi peran pendukung dalam sebuah film, mendapatkan gaji sebesar $5.000.", 5000);
-new CreateFate("Karena penampilannya yang luar biasa di taman, dia menerima amplop merah sebesar $2000.", 2000);
-new CreateFate("Jumlah penggemar di platform sosial mencapai puluhan ribu, dan menerima sponsor sebesar $1.000 dari perusahaan.", 1000);
-new CreateFate("Berhasil menurunkan berat badan bulan ini dan memenangkan bonus perusahaan sebesar $1000.", 1000);
+new CreateFate(
+    "Diundang oleh perusahaan untuk menghadiri acara luar negeri dan mendapatkan $3.000.",
+    3000
+);
+new CreateFate(
+    "Menerima posisi sebagai juru bicara sebuah perusahaan kecantikan dan memperoleh $2.000.",
+    2000
+);
+new CreateFate(
+    "Baru-baru ini, popularitasnya meningkat tajam, dan dia diundang untuk menjadi peran pendukung dalam sebuah film, mendapatkan gaji sebesar $5.000.",
+    5000
+);
+new CreateFate(
+    "Karena penampilannya yang luar biasa di taman, dia menerima amplop merah sebesar $2000.",
+    2000
+);
+new CreateFate(
+    "Jumlah penggemar di platform sosial mencapai puluhan ribu, dan menerima sponsor sebesar $1.000 dari perusahaan.",
+    1000
+);
+new CreateFate(
+    "Berhasil menurunkan berat badan bulan ini dan memenangkan bonus perusahaan sebesar $1000.",
+    1000
+);
 new CreateFate("Pelanggaran perintah pembatasan akan didenda $1000.", -1000);
-new CreateFate("Kata-kata yang tidak bermoral, mengakibatkan kerugian sebesar $1500 sebagai kompensasi pengesahan.", -1500);
-new CreateFate("Indeks Hang Seng anjlok, dan investasi kehilangan $2000.", -2000);
-new CreateFate("Bepergian ke negara asing, bertemu pencuri, dan kehilangan $3000.", -3000);
-new CreateFate("Jika Anda secara tidak sengaja kehilangan pakaian dari perusahaan sponsor, Anda akan diberi kompensasi $2000.", -2000);
-new CreateFate("Jika kelainan ditemukan dalam pemeriksaan fisik tahunan, pemeriksaan tambahan akan menelan biaya $1000.", -1000);
-new CreateFate("Terjebak dalam perangkap berburu pekerjaan dan kehilangan $3000.", -3000);
+new CreateFate(
+    "Kata-kata yang tidak bermoral, mengakibatkan kerugian sebesar $1500 sebagai kompensasi pengesahan.",
+    -1500
+);
+new CreateFate(
+    "Indeks Hang Seng anjlok, dan investasi kehilangan $2000.",
+    -2000
+);
+new CreateFate(
+    "Bepergian ke negara asing, bertemu pencuri, dan kehilangan $3000.",
+    -3000
+);
+new CreateFate(
+    "Jika Anda secara tidak sengaja kehilangan pakaian dari perusahaan sponsor, Anda akan diberi kompensasi $2000.",
+    -2000
+);
+new CreateFate(
+    "Jika kelainan ditemukan dalam pemeriksaan fisik tahunan, pemeriksaan tambahan akan menelan biaya $1000.",
+    -1000
+);
+new CreateFate(
+    "Terjebak dalam perangkap berburu pekerjaan dan kehilangan $3000.",
+    -3000
+);
 
 //Roll two dices area
 function rollDice() {
@@ -377,7 +422,7 @@ function asklevelupprop(property, tolvl2price, tolvl3price, tolvl4price) {
         cancelBtn(nextPlayer);
     } else if (property.level == 3) {
         document.querySelector(".messageBoxMiddle").innerText =
-        "Apakah Anda akan menghabiskan $" +
+            "Apakah Anda akan menghabiskan $" +
             tolvl4price +
             "untuk meningkatkan" +
             property.name +
@@ -431,7 +476,11 @@ function levelupprop(property, tolvl, lvlupprice) {
 
 function showlevelupprop(property) {
     document.querySelector(".messageBoxMiddle").innerText =
-        "Selamat" + property.name + "telah ditingkatkan menjadi" + property.level + "Tunggu.";
+        "Selamat" +
+        property.name +
+        "telah ditingkatkan menjadi" +
+        property.level +
+        "Tunggu.";
     confirmBtn(nextPlayer);
 }
 
@@ -453,7 +502,9 @@ function nomoneylevelupprop(property) {
 
 function standGo() {
     document.querySelector(".messageBox").classList.add("show");
-    document.querySelector(".messageBoxMiddle").innerText = `Anda sekarang mulai.`;
+    document.querySelector(
+        ".messageBoxMiddle"
+    ).innerText = `Anda sekarang mulai.`;
     confirmBtn(nextPlayer);
 }
 
@@ -511,7 +562,9 @@ function showPayRent(rentReceiver, rent) {
     document.querySelector(".messageBox").classList.add("show");
     document.querySelector(
         ".messageBoxMiddle"
-    ).innerText = `Anda membayar $${rent}sewa ke${players[rentReceiver - 1].name}。`;
+    ).innerText = `Anda membayar $${rent}sewa ke${
+        players[rentReceiver - 1].name
+    }。`;
     confirmBtn(nextPlayer);
 }
 
@@ -565,19 +618,21 @@ function addPropInfo() {
             parent.querySelector(
                 `.property-price`
             ).innerText = `harga tanah:$${places[i].value}`;
-            parent.querySelector(`.property-owner`).innerText = `Pemilik: Tidak ada`;
+            parent.querySelector(
+                `.property-owner`
+            ).innerText = `Pemilik: Tidak ada`;
             parent.querySelector(
                 `.property-value`
             ).innerText = `Nilai properti saat ini:$${places[i].value}`;
-            parent.querySelector(`.property-lv1-rent`).innerText = `sewa kelas 1:$${
-                places[i].value * (1 / 10)
-            }`;
-            parent.querySelector(`.property-lv2-rent`).innerText = `sewa kelas 2:$${
-                places[i].value * (1 / 5)
-            }`;
-            parent.querySelector(`.property-lv3-rent`).innerText = `sewa kelas 3:$${
-                places[i].value * (1 / 2)
-            }`;
+            parent.querySelector(
+                `.property-lv1-rent`
+            ).innerText = `sewa kelas 1:$${places[i].value * (1 / 10)}`;
+            parent.querySelector(
+                `.property-lv2-rent`
+            ).innerText = `sewa kelas 2:$${places[i].value * (1 / 5)}`;
+            parent.querySelector(
+                `.property-lv3-rent`
+            ).innerText = `sewa kelas 3:$${places[i].value * (1 / 2)}`;
             parent.querySelector(
                 `.property-lv4-rent`
             ).innerText = `sewa kelas 4:$${places[i].value}`;
@@ -599,9 +654,9 @@ function buyProperty(property) {
         .querySelector(`.property-lv1-rent`)
         .classList.add("current-lv-rent");
     // change player box info
-    document.querySelector(`#player${playerTurnIndex}Money`).innerText = `Tuan Rumah:$${
-        players[playerTurnIndex - 1].money
-    }`;
+    document.querySelector(
+        `#player${playerTurnIndex}Money`
+    ).innerText = `Tuan Rumah:$${players[playerTurnIndex - 1].money}`;
     document.querySelector(
         `#player${playerTurnIndex}PropValue`
     ).innerText = `$${players[playerTurnIndex - 1].propValue}`;
@@ -701,7 +756,9 @@ function askCompulsorySale() {
 }
 
 function confirmSell(property) {
-    document.querySelector(".messageBoxMiddle").innerText = `Apakah Anda yakin ingin$${
+    document.querySelector(
+        ".messageBoxMiddle"
+    ).innerText = `Apakah Anda yakin ingin$${
         property.currentValue * 0.8
     }terjual${property.name}?`;
     confirmBtn(function () {
@@ -733,7 +790,9 @@ function sold(property) {
     }`;
     // reset map change hover box
     const parentnode = document.querySelector(`.div${property.index}`);
-    parentnode.querySelector(`.property-owner`).innerText = `Pemilik: Tidak ada`;
+    parentnode.querySelector(
+        `.property-owner`
+    ).innerText = `Pemilik: Tidak ada`;
     parentnode
         .querySelector(`.property-lv${property.level}-rent`)
         .classList.remove("current-lv-rent");
@@ -802,7 +861,7 @@ function nextPlayer() {
         document
             .getElementById(`player${playerTurnIndex}Chess`)
             .classList.add("currentPlayerZIndex");
-        document.getElementById("rolldice").disabled = false; // enable rolldice button
+        document.getElementById("rolldice").disabled = false; 
         if (
             players[playerTurnIndex - 1].state == "jail" &&
             players[playerTurnIndex - 1].stop != 1
@@ -848,10 +907,12 @@ function rollAndDisplayDice() {
 function speedControl() {
     if (speed == 300) {
         speed = 1;
-        document.getElementById("speedControlBtn").innerText = "Kecepatan permainan: sangat cepat";
+        document.getElementById("speedControlBtn").innerText =
+            "Kecepatan permainan: sangat cepat";
     } else {
         speed = 300;
-        document.getElementById("speedControlBtn").innerText = "Kecepatan permainan: normal";
+        document.getElementById("speedControlBtn").innerText =
+            "Kecepatan permainan: normal";
     }
 }
 
