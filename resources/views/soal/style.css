@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+  #textContainer {
+    padding: 10px;
+  }
+  
+  #text {
+    font-size: 25px;
+    width: 80%;
+    height: 80%;
+  }
+  
+  #backButton {
+    font-size: 25px;
+    padding: 10px 50px;
+  }
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+}
+
+
+#text {
+  font-size: 35px;
+  font-family: Comic Sans MS, sans-serif, Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  border: 2px solid lightblue;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+#backButton {
+  font-size: 50px;
+  margin-top: -80px;
+  padding: 50px 150px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}

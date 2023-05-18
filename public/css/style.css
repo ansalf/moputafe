@@ -1,0 +1,1062 @@
+body {
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  
+  .hide {
+    display: none !important;
+  }
+  
+  .show {
+    display: block !important;
+  }
+  
+  .gameArea {
+  }
+  
+  .board {
+    display: flex;
+    position: center;
+  }
+  
+  .parent {
+    position: relative;
+    display: grid;
+    border: 3px solid black;
+    padding: 10px;
+    width: 1028px;
+    height: 1028px;
+    margin-left: 210px;
+  }
+  
+  .messageBox {
+    position: absolute;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: 3px solid black;
+    display: none;
+  }
+  
+  .messageBoxTop {
+    width: 390px;
+    min-height: 10px;
+    background-color: #0072bc;
+    color: white;
+    font-weight: 400;
+    padding: 0 5px 0 5px;
+  }
+  
+  .messageBoxMiddle {
+    text-align: center;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  
+  .messageBoxBottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .messageBoxBtn {
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    background-color: #d9d9d9;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .messageBoxBtn:hover {
+    border: 3px solid white;
+    background-color: #0072bc;
+    color: white;
+  }
+  
+  .confirmBtn {
+    border: 3px dashed black;
+  }
+  
+  .messageBoxBtn:hover .confirmBtn {
+    border: 3px dashed white;
+  }
+  
+  .startPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1460px;
+    height: 1050px;
+    position: absolute;
+    background-color: rgba(103, 101, 101, 0.8);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    z-index: 10;
+    margin-left: 210px;
+  }
+  
+  .playerSettings {
+    width: 400px;
+    height: 300px;
+    background-color: #0072bc;
+    padding: 0px 50px 100px 50px;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+  }
+  
+  .playerBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .startBtn {
+    width: 200px;
+    height: 50px;
+    color: #0072bc;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  
+  .startPagePlayer {
+    display: inline-block;
+  }
+  
+  .startBtn:hover {
+    color: white;
+    background-color: #0072bc;
+  }
+  
+  .chess {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .chess img {
+    width: 40px;
+  }
+  
+  .div0 {
+    position: relative;
+    grid-area: 11 / 11 / 12 / 12;
+  }
+  
+  #gocontainer {
+    display: grid;
+    justify-content: center;
+  }
+  
+  #gocontainer img {
+    width: 50px;
+  }
+  
+  .div1 {
+    position: relative;
+    grid-area: 11 / 10 / 12 / 11;
+  }
+  
+  .div2 {
+    position: relative;
+    grid-area: 11 / 9 / 12 / 10;
+  }
+  
+  .containerh {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .containerh img {
+    height: 70px;
+  }
+  
+  .containerv {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .containerv img {
+    height: 30px;
+  }
+  
+  .div3 {
+    position: relative;
+    grid-area: 11 / 8 / 12 / 9;
+  }
+  
+  .div4 {
+    position: relative;
+    grid-area: 11 / 7 / 12 / 8;
+  }
+  
+  .div5 {
+    position: relative;
+    grid-area: 11 / 6 / 12 / 7;
+  }
+  
+  .div6 {
+    position: relative;
+    grid-area: 11 / 5 / 12 / 6;
+  }
+  
+  .div7 {
+    position: relative;
+    grid-area: 11 / 4 / 12 / 5;
+  }
+  
+  .div8 {
+    position: relative;
+    grid-area: 11 / 3 / 12 / 4;
+  }
+  
+  .div9 {
+    position: relative;
+    grid-area: 11 / 2 / 12 / 3;
+  }
+  
+  .div10 {
+    position: relative;
+    grid-area: 11 / 1 / 12 / 2;
+  }
+  
+  #jailcontainer {
+    display: grid;
+    justify-content: center;
+  }
+  
+  #jailcontainer img {
+    width: 70px;
+  }
+  
+  .div11 {
+    position: relative;
+    grid-area: 10 / 1 / 11 / 2;
+  }
+  
+  .div12 {
+    position: relative;
+    grid-area: 9 / 1 / 10 / 2;
+  }
+  
+  .div13 {
+    position: relative;
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  
+  .div14 {
+    position: relative;
+    grid-area: 7 / 1 / 8 / 2;
+  }
+  
+  .div15 {
+    position: relative;
+    grid-area: 6 / 1 / 7 / 2;
+  }
+  
+  .div16 {
+    position: relative;
+    grid-area: 5 / 1 / 6 / 2;
+  }
+  
+  .div17 {
+    position: relative;
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  
+  .div18 {
+    position: relative;
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  
+  .div19 {
+    position: relative;
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  
+  .div20 {
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  
+  #wheelcontainer {
+    display: grid;
+    justify-content: center;
+  }
+  
+  #wheelcontainer img {
+    width: 70px;
+  }
+  
+  .div21 {
+    position: relative;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  
+  .div22 {
+    position: relative;
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  
+  .div23 {
+    position: relative;
+    grid-area: 1 / 4 / 2 / 5;
+  }
+  
+  .div24 {
+    position: relative;
+    grid-area: 1 / 5 / 2 / 6;
+  }
+  
+  .div25 {
+    position: relative;
+    grid-area: 1 / 6 / 2 / 7;
+  }
+  
+  .div26 {
+    position: relative;
+    grid-area: 1 / 7 / 2 / 8;
+  }
+  
+  .div27 {
+    position: relative;
+    grid-area: 1 / 8 / 2 / 9;
+  }
+  
+  .div28 {
+    position: relative;
+    grid-area: 1 / 9 / 2 / 10;
+  }
+  
+  .div29 {
+    position: relative;
+    grid-area: 1 / 10 / 2 / 11;
+  }
+  
+  .div30 {
+    position: relative;
+    grid-area: 1 / 11 / 2 / 12;
+  }
+  
+  #freeparkingcontainer {
+    display: grid;
+    justify-content: center;
+  }
+  
+  #freeparkingcontainer img {
+    width: 70px;
+  }
+  
+  .div31 {
+    position: relative;
+    grid-area: 2 / 11 / 3 / 12;
+  }
+  
+  .div32 {
+    position: relative;
+    grid-area: 3 / 11 / 4 / 12;
+  }
+  
+  .div33 {
+    position: relative;
+    grid-area: 4 / 11 / 5 / 12;
+  }
+  
+  .div34 {
+    position: relative;
+    grid-area: 5 / 11 / 6 / 12;
+  }
+  
+  .div35 {
+    position: relative;
+    grid-area: 6 / 11 / 7 / 12;
+  }
+  
+  .div36 {
+    position: relative;
+    grid-area: 7 / 11 / 8 / 12;
+  }
+  
+  .div37 {
+    position: relative;
+    grid-area: 8 / 11 / 9 / 12;
+  }
+  
+  .div38 {
+    position: relative;
+    grid-area: 9 / 11 / 10 / 12;
+  }
+  
+  .div39 {
+    position: relative;
+    grid-area: 10 / 11 / 11 / 12;
+  }
+  
+  .div40 {
+    grid-area: 2 / 2 / 11 / 11;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #playernow {
+    color: #0072bc;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  #logo {
+    height: 100px;
+    width: auto;
+  }
+  
+  .die {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 25px 15px 0px 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  #rolldice {
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: #0072bc;
+    border-color: #0072bc;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .square {
+    background-color: white;
+    border: 5px solid black;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .squareb {
+    background-color: #0072bc;
+    border: 5px solid black;
+    display: grid;
+    align-content: center;
+  }
+  
+  .squarev {
+    background-color: white;
+    border: 5px solid black;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .squareh {
+    background-color: white;
+    border: 5px solid black;
+    display: grid;
+    justify-content: center;
+  }
+  
+  /* grid 每格大小 */
+  
+  .horizontal {
+    width: 60px;
+    height: 90px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .vertical {
+    height: 60px;
+    width: 90px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .corner {
+    width: 90px;
+    height: 90px;
+  }
+  
+  /* map 每行flex-direction */
+  
+  .firstRow {
+    display: flex;
+  }
+  
+  .secondRow {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .thirdRow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .fourthRow {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .propertyName {
+  }
+  
+  .propBottom {
+    width: 100%;
+    height: 20px;
+    border-bottom: 5px solid black;
+  }
+  
+  .propLeft {
+    width: 20px;
+    border-left: 5px solid black;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .propTop {
+    width: 100%;
+    height: 20px;
+    border-top: 5px solid black;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .propRight {
+    width: 20px;
+    border-right: 5px solid black;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .prop {
+    background-color: #0072bc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .side {
+    background-color: #0072bc;
+    min-width: 400px;
+    border: 5px solid black;
+  }
+  
+  .controlBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #speedControlBtn {
+    width: 140px;
+    color: #0072bc;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+  #speedControlBtn:hover {
+    color: white;
+    background-color: #0072bc;
+  }
+  
+  #instructionBtn {
+    width: 140px;
+    color: white;
+    background-color: #0072bc;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #instructionBox {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+    overflow-y: scroll;
+  }
+  
+  #instructionBox::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #instructionBox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(110, 110, 110, 0.3);
+    border-radius: 10px;
+  }
+  
+  #instructionBox::-webkit-scrollbar-thumb {
+    background-color: #014979;
+    border-radius: 10px;
+  }
+  
+  .playerBigBox {
+    margin: 20px auto;
+    padding: 20px 10px 20px 10px;
+    background-color: white;
+    width: 330px;
+    height: 490px;
+    border-radius: 10px;
+  }
+  
+  .playercolbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #0072bc;
+    font-weight: 700;
+  }
+  
+  .playerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  
+  .playerInfo .playerName {
+    white-space: nowrap;
+  }
+  
+  .playerIcon {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .playerIconBar {
+    width: 60px;
+    text-align: center;
+  }
+  
+  .playercol1 {
+    padding-left: 18px;
+  }
+  .playercol2 {
+    padding-left: 45px;
+  }
+  .playercol3 {
+    padding-left: 25px;
+  }
+  
+  .playercol4 {
+    padding-left: 10px;
+  }
+  
+  .playerMoney {
+    text-align: center;
+    color: #0072bc;
+    width: 50px;
+  }
+  
+  .currentPlayerBorder {
+    border: 5px solid #0072bc !important;
+  }
+  
+  .currentPlayerZIndex {
+    z-index: 50 !important;
+  }
+  
+  /* Property card */
+  .property-popup {
+    position: absolute;
+    bottom: 120%;
+    right: 10%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .property-popup2 {
+    position: absolute;
+    bottom: 120%;
+    left: 10%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .div1:hover .property-popup {
+    display: block;
+  }
+  .div3:hover .property-popup {
+    display: block;
+  }
+  .div4:hover .property-popup {
+    display: block;
+  }
+  .div5:hover .property-popup {
+    display: block;
+  }
+  .div6:hover .property-popup {
+    display: block;
+  }
+  .div8:hover .property-popup2 {
+    display: block;
+  }
+  .div9:hover .property-popup2 {
+    display: block;
+  }
+  
+  .property-popup3 {
+    position: absolute;
+    bottom: 15%;
+    left: 120%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .property-popup4 {
+    position: absolute;
+    top: 10%;
+    left: 120%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .div11:hover .property-popup3 {
+    display: block;
+  }
+  .div13:hover .property-popup3 {
+    display: block;
+  }
+  .div14:hover .property-popup3 {
+    display: block;
+  }
+  .div15:hover .property-popup3 {
+    display: block;
+  }
+  .div16:hover .property-popup3 {
+    display: block;
+  }
+  .div18:hover .property-popup4 {
+    display: block;
+  }
+  .div19:hover .property-popup4 {
+    display: block;
+  }
+  
+  .property-popup5 {
+    position: absolute;
+    top: 120%;
+    left: 15%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .property-popup6 {
+    position: absolute;
+    top: 120%;
+    right: 15%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .div21:hover .property-popup5 {
+    display: block;
+  }
+  .div22:hover .property-popup5 {
+    display: block;
+  }
+  .div23:hover .property-popup5 {
+    display: block;
+  }
+  .div24:hover .property-popup5 {
+    display: block;
+  }
+  .div26:hover .property-popup5 {
+    display: block;
+  }
+  .div28:hover .property-popup6 {
+    display: block;
+  }
+  .div29:hover .property-popup6 {
+    display: block;
+  }
+  
+  .property-popup7 {
+    position: absolute;
+    top: 10%;
+    right: 120%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .property-popup8 {
+    position: absolute;
+    bottom: 20%;
+    right: 120%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    z-index: 50;
+    display: none;
+  }
+  
+  .div31:hover .property-popup7 {
+    display: block;
+  }
+  .div33:hover .property-popup7 {
+    display: block;
+  }
+  .div34:hover .property-popup7 {
+    display: block;
+  }
+  .div35:hover .property-popup7 {
+    display: block;
+  }
+  .div36:hover .property-popup7 {
+    display: block;
+  }
+  .div38:hover .property-popup8 {
+    display: block;
+  }
+  .div39:hover .property-popup8 {
+    display: block;
+  }
+  
+  .propertyheader {
+    background-color: #0072bc;
+    color: white;
+    border-bottom: 5px solid black;
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .property-name {
+    font-weight: bold;
+  }
+  
+  .property-price {
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .property-description {
+    font-size: 12px;
+    color: #555;
+    position: relative;
+    font-size: 13px;
+  }
+  
+  .property-price {
+    padding-top: 7px;
+  }
+  
+  .property-lv1-rent,
+  .property-lv2-rent,
+  .property-lv3-rent,
+  .property-lv4-rent {
+    color: #bbbbbb;
+  }
+  
+  .current-lv-rent {
+    color: #333 !important;
+    font-weight: 600;
+  }
+  
+  .levelup {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .levelup img {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .sellPropertyBox {
+    width: 340px;
+    background-color: white;
+  }
+  
+  .sellItemTitleBig {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+  }
+  
+  .sellItemTitle {
+    font-size: 14px;
+    text-align: center;
+    background-color: #d9d9d9;
+    border: 3px solid black;
+    height: 20px;
+  }
+  
+  .sellItemBtn {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .sellItemBtn:hover {
+    background-color: #0088e2;
+  }
+  
+  .resultPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 850px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    z-index: 100;
+  }
+  
+  .resultBox {
+    width: 400px;
+    background-color: #0072bc;
+    padding: 50px 50px 50px 50px;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+  }
+  
+  .champion {
+    padding-top: 20px;
+  }
+  
+  .resultBox .playerName {
+    color: #000000;
+  }
+  
+  .restartBtn {
+    width: 200px;
+    height: 50px;
+    color: #0072bc;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  
+  .restartBtn:hover {
+    color: white;
+    background-color: #0072bc;
+  }
+  
+  .champion {
+    font-weight: 500;
+  }
+  
+  .longResult {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .playerResultBigBox {
+    margin: 20px auto;
+    padding: 20px 10px 20px 10px;
+    background-color: white;
+    width: 280px;
+    height: 430px;
+    border-radius: 10px;
+  }

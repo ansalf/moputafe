@@ -566,15 +566,15 @@ h6 {
   }
 
   .rotate_atas {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
 
   .rotate_kanan{
-    transform: rotate(90deg);
+    transform: rotate(360deg);
     text-align: justify;
   }
   
   .rotate_kiri {
-    transform: rotate(270deg);
+    transform: rotate(360deg);
     text-align: end;
   }

@@ -52,6 +52,7 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register');
 // Login Routes
 Route::get('/login', [LoginController::class, 'login']);
 Route::post('/login', [LoginController::class, 'authenticate']);
+//Route::post('login', [ 'as' => 'login', 'uses' => 'LoginController@do']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 // Register Routes
@@ -77,6 +78,10 @@ Route::get('/games', [GameController::class, 'index']);
 
 Route::get('/board', function () {
     return view('board');
+});
+
+Route::get('/index', function () {
+    return view('index');
 });
 
 // Route Player

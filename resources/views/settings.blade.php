@@ -55,7 +55,7 @@
     @if (auth()->check())
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ route('authenticate') }}">
+            <a class="navbar-brand" href="{{ route('login') }}">
                 <img src="{{ asset('img/user.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 {{ auth()->user()->username }}
             </a>

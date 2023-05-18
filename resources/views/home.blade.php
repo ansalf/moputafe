@@ -15,6 +15,8 @@
                         @endif
                         welcome to user Dashboard
                         {{ __('You are logged in!') }}
+                        <br/> <br/>
+                        <button class="button"><a href="/dashboard" style="text-decoration: none; color:black;">Start Game</button>
                     </div>
                 </div>
             </div>
