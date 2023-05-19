@@ -60,10 +60,10 @@ function startGame() {
         player4Name = "Player 4";
     }
 
-    new CreatePlayer(player1Name, 1, 15000, "active", 0, 0, "#EF847C", 0, []);
-    new CreatePlayer(player2Name, 2, 15000, "active", 0, 0, "#DDD05B", 0, []);
-    new CreatePlayer(player3Name, 3, 15000, "active", 0, 0, "#97BC9A", 0, []);
-    new CreatePlayer(player4Name, 4, 15000, "active", 0, 0, "#75C3D8", 0, []);
+    new CreatePlayer(player1Name, 1, 15000, "active", 0, 0, "#75C3D8", 0, []);
+    new CreatePlayer(player2Name, 2, 15000, "active", 0, 0, "#EF847C", 0, []);
+    new CreatePlayer(player3Name, 3, 15000, "active", 0, 0, "#DDD05B", 0, []);
+    new CreatePlayer(player4Name, 4, 15000, "active", 0, 0, "#97BC9A", 0, []);
     document.querySelector(`#player1Money`).innerText = `$${players[0].money}`;
     document.querySelector(`#player2Money`).innerText = `$${players[1].money}`;
     document.querySelector(`#player3Money`).innerText = `$${players[2].money}`;
