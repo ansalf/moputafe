@@ -680,7 +680,7 @@
                             <p id="playernow">player 1</p>
                             <div id="dice-container"></div>
                             <button id="rolldice" onclick="rollAndDisplayDice()">
-                                Dadu
+                                Mulai
                             </button>
                         </div>
                     </div>
