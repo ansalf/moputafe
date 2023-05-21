@@ -426,7 +426,7 @@
                                 <div class="property-lv3-rent">sewa kelas 3:</div>
                                 <div class="property-lv4-rent">sewa kelas 4:</div>
                             </div>
-                        </div>>
+                        </div>
                     </div>
                     <div class="div22 square horizontal thirdRow">
                         <div id="prop22" class="prop propTop"></div>
