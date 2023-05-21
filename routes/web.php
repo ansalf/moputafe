@@ -53,7 +53,9 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::get('/login', [LoginController::class, 'login']);
 Route::post('/login', [LoginController::class, 'authenticate']);
 //Route::post('login', [ 'as' => 'login', 'uses' => 'LoginController@do']);
-Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+// Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+
 
 // Register Routes
 Route::post('/login', [LoginController::class, 'authenticate'])->name('authenticate');

@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -43,7 +45,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav  class="navbar navbar-expand-lg bg-white sticky-top p-0 px-4 px-lg-5 navbar-scrolled">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top p-0 px-4 px-lg-5 navbar-scrolled">
         <a href="{{ route('home') }}" class="navbar-brand ms-4 ms-lg-5">
             <img class="img-fluid rounded logo" src="{{ asset('landpage/img/logo.jpg') }}" alt="">
         </a>
@@ -61,6 +63,13 @@
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                         <a href="/login" class="dropdown-item">Masuk</a>
                         <a href="/register" class="dropdown-item">Daftar</a>
+                        <a href="/logout"
+                            class="dropdown-item"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            logout</a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+
                     </div>
                 </div>
             </div>
@@ -89,11 +98,11 @@
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>mpt.moputa@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                            class="fab fa-discord"></i></a>
-                    <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                            class="fab fa-github"></i></a>
-                    <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
-                            class="fab fa-instagram"></i></a>
+                                class="fab fa-discord"></i></a>
+                        <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
