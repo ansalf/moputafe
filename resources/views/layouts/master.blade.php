@@ -65,7 +65,7 @@
                         <a href="/register" class="dropdown-item">Daftar</a>
                         <a href="/logout"
                             class="dropdown-item"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                            logout</a>
+                            Logout</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>
