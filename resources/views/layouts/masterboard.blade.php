@@ -61,8 +61,13 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Main</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="/login" class="dropdown-item">Masuk</a>
-                        <a href="/register" class="dropdown-item">Daftar</a>
+                        <a href="/logout"
+                            class="dropdown-item"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            Logout</a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+
                     </div>
                 </div>
             </div>

@@ -60,4 +60,6 @@
 
         {{ $users->links() }}
     </div>
+    
 @endsection
+

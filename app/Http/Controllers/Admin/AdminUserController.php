@@ -17,10 +17,10 @@ class AdminUserController extends Controller
     public function index()
     {
         $title = 'Dashboard | User';
-        $users = User::latest()->paginate(5);
+        $users = User::latest()->paginate(20);
 
         return view('admin.users.index', compact('users', 'title'))
-                ->with('i', (request()->input('page', 1) - 1) * 5);
+                ->with('i', (request()->input('page', 1) - 1) * 20);
     }
 
     /**
