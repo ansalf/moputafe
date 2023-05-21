@@ -65,12 +65,12 @@ Route::get('/dashboard', function () {
 });
 
 // Route Settingan
-Route::get('/settings', function () {
-    return view('settings');
-});
-Route::post('/settings/save', [SettingsController::class, 'save'])->name('settings.save');
+// Route::get('/settings', function () {
+//     return view('settings');
+// });
+// Route::post('/settings/save', [SettingsController::class, 'save'])->name('settings.save');
 
-Route::get('/games', [GameController::class, 'index']);
+// Route::get('/games', [GameController::class, 'index']);
 
 // Route Board-pion-added
 //Route::get('/board', 'BoardController@index')->name('board');

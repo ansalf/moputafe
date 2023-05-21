@@ -6,37 +6,38 @@
             <div class="startPage">
                 <div class="playerSettings">
                     <br /><br />
-                    <h1>Welcome to M O P U T A</h1>
+                    <h1>MOPUTA | Monopoly</h1>
+                    <br>
                     <div class="playerBar">
                         <div class="playerIcon startPagePlayer" style="width: 60px">
                             <img src="{{ asset('img/player1.png') }}" height="40px" />
                         </div>
-                        <label for="player1Name">Player 1 Nama :</label>
-                        <input id="typePlayer1Name" name="player1Name" type="text" placeholder="Nana" maxlength="8" />
+                        <label for="player1Name">Pemain 1 : &nbsp; </label>
+                        <input id="typePlayer1Name" name="player1Name" type="text" placeholder="nickname" maxlength="8" />
                     </div>
                     <br />
                     <div class="playerBar">
                         <div class="playerIcon startPagePlayer" style="width: 60px">
                             <img src="{{ asset('img/player2.png') }}" height="40px" />
                         </div>
-                        <label for="player2Name">Player 2 Nama :</label><input id="typePlayer2Name" name="player2Name"
-                            type="text" placeholder="Player 2" maxlength="8" />
+                        <label for="player2Name">Pemain 2 : &nbsp;</label><input id="typePlayer2Name" name="player2Name"
+                            type="text" placeholder="nickname" maxlength="8" />
                     </div>
                     <br />
                     <div class="playerBar">
                         <div class="playerIcon startPagePlayer" style="width: 60px">
                             <img src="{{ asset('img/player3.png') }}" height="40px" />
                         </div>
-                        <label for="player3Name">Player 3 Nama :</label><input id="typePlayer3Name" name="player3Name"
-                            type="text" placeholder="Player 3" maxlength="8" />
+                        <label for="player3Name">Pemain 3 : &nbsp;</label><input id="typePlayer3Name" name="player3Name"
+                            type="text" placeholder="nickname" maxlength="8" />
                     </div>
                     <br />
                     <div class="playerBar">
                         <div class="playerIcon startPagePlayer" style="width: 60px">
                             <img src="{{ asset('img/player4.png') }}" height="40px" />
                         </div>
-                        <label for="player4Name">Player 4 Nama :</label><input id="typePlayer4Name" name="player4Name"
-                            type="text" placeholder="Player 4" maxlength="8" />
+                        <label for="player4Name">Pemain 4 : &nbsp;</label><input id="typePlayer4Name" name="player4Name"
+                            type="text" placeholder="nickname" maxlength="8" />
                     </div>
                     <br />
                     <button class="startBtn" onclick="startGame()">Start Game</button>
@@ -104,7 +105,7 @@
                         <div class="messageBoxBottom">
                             <!-- <button class="messageBoxBtn">
                     <div class="confirmBtn">Test</div></button
-                  ><button class="messageBoxBtn">Test</button> -->
+                    ><button class="messageBoxBtn">Test</button> -->
                         </div>
                     </div>
                     <div class="div0 square corner">
@@ -117,12 +118,12 @@
                         <div class="levelup"></div>
                         <div class="property-popup">
                             <div class="propertyheader">
-                                <div class="property-name">Nama Tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
-                            <div class="property-price">Harga Tanah: </div>
+                            <div class="property-price">Studi Kasus </div>
                             <div class="property-description">
-                                <div class="property-owner">Pemilik: Tidak Ada</div>
-                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-owner">Studi kasus ditemukan</div>
+                                <div class="property-value">Solusi untuk masalah ini:</div>
                                 <div class="property-lv1-rent">sewa kelas 1:</div>
                                 <div class="property-lv2-rent">sewa kelas 2:</div>
                                 <div class="property-lv3-rent">sewa kelas 3:</div>
@@ -140,7 +141,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah: </div>
                             <div class="property-description">
@@ -158,7 +159,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -176,7 +177,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -194,7 +195,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -217,7 +218,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup2">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -235,7 +236,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup2">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -258,7 +259,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup3">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -281,7 +282,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup3">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -299,7 +300,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup3">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -317,7 +318,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup3">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -335,7 +336,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup3">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -358,7 +359,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup4">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -376,7 +377,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup4">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -399,7 +400,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup5">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -417,7 +418,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup5">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -435,7 +436,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup5">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -453,7 +454,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup5">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -476,7 +477,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup5">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -499,7 +500,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup6">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -517,7 +518,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup6">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -540,7 +541,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup7">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -563,7 +564,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup7">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -581,7 +582,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup7">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -599,7 +600,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup7">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -617,7 +618,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup7">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -640,7 +641,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup8">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">
@@ -658,7 +659,7 @@
                         <div class="levelup"></div>
                         <div class="property-popup8">
                             <div class="propertyheader">
-                                <div class="property-name">nama tempat</div>
+                                <div class="property-name">Studi Kasus</div>
                             </div>
                             <div class="property-price">harga tanah:</div>
                             <div class="property-description">

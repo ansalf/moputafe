@@ -20,11 +20,11 @@
                                     Rasakan keseruan dan tantangan yang tak terlupakan dengan memainkan monopoly
 
                                 </p>
-                                <a href=""
+                                <a href="/login"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
                                     Main
                                 </a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                <a href="/register" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Daftar
                                 </a>
                             </div>
@@ -47,11 +47,11 @@
                                 <p class="fs-5 text-white mb-4 pb-2">
                                     Bermainlah tanpa tekanan dan jadilah pemenang dalam kehidupan
                                 </p>
-                                <a href=""
+                                <a href="/login"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
                                     Main
                                 </a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                <a href="/register" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Daftar
                                 </a>
                             </div>
@@ -74,11 +74,11 @@
                                 <p class="fs-5 text-white mb-4 pb-2">
                                     Temukan berbagai macam solusi untuk kamu yang sedang mengalami masalah
                                 </p>
-                                <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                <a href="/login"
+                                    class= "btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
                                     Main
                                 </a>
-                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                <a href="/register" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Daftar
                                 </a>
                             </div>
