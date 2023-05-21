@@ -1,356 +1,797 @@
-<!DOCTYPE html>
-<html>
+@extends('layouts.master')
 
-<head>
-    <title>Monopoly Game</title>
-    <link rel="stylesheet" href="{{ asset('css/board.css') }}">
-</head>
-
-<body>
-    <div class="table">
-        <div class="board">
-            <div class="center">
-                {{-- <div class="community-chest-deck">
-                    <h2 class="label rotate_atas">Community Chest</h2>
-                    <div class="deck"></div>
-                </div> --}}
-                <img class="bg" src="{{ asset('img/moputa.png') }}" alt="mopta">
-                {{-- <div class="chance-deck">
-                    <h2 class="label">Chance</h2>
-                    <div class="deck"></div>
-                </div> --}}
-            </div>
-
-            <div class="space corner go" id="1">
-                <div class="container">
-                    <div class="instructions">As You Pass</div>
-                    <div class="go-word">HOME</div>
-                </div>
-                <div class="arrow fa fa-long-arrow-left"></div>
-            </div>
-
-            <div class="row horizontal-row bottom-row">
-                <div class="space property" id="10">
-                    <div class="container">
-                        <div class="color-bar light-blue"></div>
-                        <div class="name">Kerja Keras</div>
-                        {{-- <div class="price">£120</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="9">
-                    <div class="container">
-                        <div class="color-bar light-blue"></div>
-                        <div class="name">Eksplorasi</div>
-                        {{-- <div class="price">£100</div> --}}
-                    </div>
-                </div>
-                <div class="space chance" id="8">
-                    <div class="container">
-                        <div class="name">Interaksi Sosial</div>
-                        <i class="drawing fa fa-question"></i>
-                    </div>
-                </div>
-                <div class="space property" id="7">
-                    <div class="container">
-                        <div class="color-bar light-blue"></div>
-                        <div class="name" style="padding-bottom: 60px;">Implusif</div>
-                        {{-- <div class="price">£100</div> --}}
-                    </div>
-                </div>
-                <div class="space railroad" id="6">
-                    <div class="container">
-                        <div class="name long-railroad" style="padding-top: 40px; margin-left:5px;">Emosional</div>
-                        <i class="drawing fa fa-building"></i>
-                        {{-- <div class="price">£200</div> --}}
-                    </div>
-                </div>
-                <div class="space railroad" id="5">
-                    <div class="container">
-                        <div class="name" style="padding-top: 40px;">Ekspresi Diri</div>
-                        <div class="diamond"></div>
-                        {{-- <div class="instructions">Pay $200</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id='4'>
-                    <div class="container">
-                        <div class="color-bar dark-purple"></div>
-                        <div class="name" style="padding-bottom: 60px;">Komunikasi </div>
-                        {{-- <div class="price">£60</div> --}}
-                    </div>
-                </div>
-                <div class="space community-chest" id="3">
-                    <div class="container">
-                        <div class="name" style="padding-top: 30px;">Moral</div>
-                        <i class="drawing fa fa-key"></i>
-                    </div>
-                </div>
-                <div class="space property" id='2'>
-                    <div class="container">
-                        <div class="color-bar dark-purple"></div>
-                        <div class="name">Percaya Diri</div>
-                        {{-- <div class="price">£60</div> --}}
-                    </div>
-                </div>
-            </div>
-
-            <div class="space corner jail" id="11">
-                <div class="just">Just</div>
-                <div class="drawing">
-                    <div class="container">
-                        <div class="name">In</div>
-                        <div class="window">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <i class="person fa fa-frown-o"></i>
+@section('content')
+    <body>
+        <div class="gameArea">
+            <div class="startPage">
+                <div class="playerSettings">
+                    <br /><br />
+                    <h1>Welcome to M O P U T A</h1>
+                    <div class="playerBar">
+                        <div class="playerIcon startPagePlayer" style="width: 60px">
+                            <img src="{{ asset('img/player1.png') }}" height="40px" />
                         </div>
-                        <div class="name">Jail</div>
+                        <label for="player1Name">Player 1 Nama :</label>
+                        <input id="typePlayer1Name" name="player1Name" type="text" placeholder="Nana" maxlength="8" />
                     </div>
-                </div>
-                <div class="visiting">Visiting</div>
-            </div>
-
-            <div class="row vertical-row left-row">
-                <div class="space property" id="20">
-                    <div class="container">
-                        <div class="color-bar orange"></div>
-                        <div class="name rotate_kiri">Public Speaking</div>
-                        {{-- <div class="price rotate_kiri">£200</div> --}}
+                    <br />
+                    <div class="playerBar">
+                        <div class="playerIcon startPagePlayer" style="width: 60px">
+                            <img src="{{ asset('img/player2.png') }}" height="40px" />
+                        </div>
+                        <label for="player2Name">Player 2 Nama :</label><input id="typePlayer2Name" name="player2Name"
+                            type="text" placeholder="Player 2" maxlength="8" />
                     </div>
-                </div>
-                <div class="space property" id="19">
-                    <div class="container">
-                        <div class="color-bar orange"></div>
-                        <div class="name rotate_kiri">Kesempatan</div>
-                        {{-- <div class="price rotate_kiri">£180</div> --}}
+                    <br />
+                    <div class="playerBar">
+                        <div class="playerIcon startPagePlayer" style="width: 60px">
+                            <img src="{{ asset('img/player3.png') }}" height="40px" />
+                        </div>
+                        <label for="player3Name">Player 3 Nama :</label><input id="typePlayer3Name" name="player3Name"
+                            type="text" placeholder="Player 3" maxlength="8" />
                     </div>
-                </div>
-                <div class="space community-chest" id="18">
-                    <div class="container">
-                        <div class="name rotate_kiri" style="margin-top: 30px;">Stress dan Tekanan</div>
-                        <i class="drawing fa fa-key"></i>
+                    <br />
+                    <div class="playerBar">
+                        <div class="playerIcon startPagePlayer" style="width: 60px">
+                            <img src="{{ asset('img/player4.png') }}" height="40px" />
+                        </div>
+                        <label for="player4Name">Player 4 Nama :</label><input id="typePlayer4Name" name="player4Name"
+                            type="text" placeholder="Player 4" maxlength="8" />
                     </div>
-                </div>
-                <div class="space property" id="17">
-                    <div class="container">
-                        <div class="color-bar orange"></div>
-                        <div class="name rotate_kiri">Manajemen Waktu</div>
-                        {{-- <div class="price rotate_kiri">£180</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="16">
-                    <div class="container">
-                        <div class="name rotate_kiri" style="margin-top: 40px;">Komunikasi</div>
-                        <i class="drawing fa fa-building"></i>
-                        {{-- <div class="price rotate_kiri">£200</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="15">
-                    <div class="container">
-                        <div class="color-bar purple"></div>
-                        <div class="name rotate_kiri">Menjalin Hubungan Baik</div>
-                        {{-- <div class="price rotate_kiri">£160</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="14">
-                    <div class="container">
-                        <div class="color-bar purple"></div>
-                        <div class="name rotate_kiri">Jadwal Kegiatan</div>
-                        {{-- <div class="price rotate_kiri">£140</div> --}}
-                    </div>
-                </div>
-
-                <!-- <div class="space fee luxury-tax property" id="39">
-                    <div class="container">
-                        <div class="name rotate_kanan">GST</div>
-                        <div class="drawing fa fa-database"></div>
-                        <div class="price rotate_kanan">Pay £200</div>
-                    </div>
-                </div> -->
-
-                <div class="space utility electric-company property" id="13">
-                    <div class="container">
-                        <div class="name rotate_kiri" style="margin-top:40px;">Terampil</div>
-                        <i class="drawing fa fa-university"></i>
-                        {{-- <div class="price rotate_kiri">£150</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="12">
-                    <div class="container">
-                        <div class="color-bar purple"></div>
-                        <div class="name rotate_kiri">Mandiri</div>
-                        {{-- <div class="price rotate_kiri">£140</div> --}}
-                    </div>
+                    <br />
+                    <button class="startBtn" onclick="startGame()">Start Game</button>
                 </div>
             </div>
-
-            <div class="space corner free-parking" id="21">
-                <div class="container">
-                    <div class="name rotate_atas">Free</div>
-                    <i class="drawing fa fa-car"></i>
-                    <div class="name rotate_atas">Parking</div>
+            <div class="resultPage hide">
+                <div class="resultBox">
+                    <div style="font-size: 24px">Hasil Permainan</div>
+                    <div class="longResult">Detail:</div>
+                    <div class="playerResultBigBox">
+                        <div class="playercolbar">
+                            <div class="playercol1">Player</div>
+                            <div class="playercol2">Uang Tunai</div>
+                            <div class="playercol3">Nilai Properti</div>
+                            <div class="playercol4">Total Asset</div>
+                        </div>
+                        <div id="player1EndInfo" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player1.png') }}" height="40px" />
+                                <div class="playerName">player 1</div>
+                            </div>
+                            <div class="playerMoney playerEndMoney">$15000</div>
+                            <div class="playerMoney playerEndPropValue">$0</div>
+                            <div class="playerMoney playerEndTotalValue">$15000</div>
+                        </div>
+                        <div id="player2EndInfo" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player2.png') }}" height="40px" />
+                                <div class="playerName">Player 2</div>
+                            </div>
+                            <div class="playerMoney playerEndMoney">$15000</div>
+                            <div class="playerMoney playerEndPropValue">$0</div>
+                            <div class="playerMoney playerEndTotalValue">$15000</div>
+                        </div>
+                        <div id="player3EndInfo" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player3.png') }}" height="40px" />
+                                <div class="playerName">Player 3</div>
+                            </div>
+                            <div class="playerMoney playerEndMoney">$15000</div>
+                            <div class="playerMoney playerEndPropValue">$0</div>
+                            <div class="playerMoney playerEndTotalValue">$15000</div>
+                        </div>
+                        <div id="player4EndInfo" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player4.png') }}" height="40px" />
+                                <div class="playerName">Player 4</div>
+                            </div>
+                            <div class="playerMoney playerEndMoney">$15000</div>
+                            <div class="playerMoney playerEndPropValue">$0</div>
+                            <div class="playerMoney playerEndTotalValue">$15000</div>
+                        </div>
+                    </div>
+                    <button class="restartBtn" onclick="window.location.reload()">
+                        Ulang
+                    </button>
                 </div>
             </div>
 
-            <div class="row horizontal-row top-row">
-                <div class="space property" id="22">
-                    <div class="container">
-                        <div class="color-bar red"></div>
-                        <div class="name rotate_atas">Hidup Sehat</div>
-                        {{-- <div class="price rotate_atas">£220</div> --}}
+            <div class="board">
+                <div class="parent">
+                    <div class="messageBox">
+                        <div class="messageBoxTop">Pesan</div>
+                        <div class="messageBoxMiddle">p</div>
+                        <div class="messageBoxBottom">
+                            <!-- <button class="messageBoxBtn">
+                    <div class="confirmBtn">Test</div></button
+                  ><button class="messageBoxBtn">Test</button> -->
+                        </div>
+                    </div>
+                    <div class="div0 square corner">
+                        <div id="gocontainer">
+                            {{-- <img src="./img/GO.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div1 square horizontal firstRow">
+                        <div id="prop1" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup">
+                            <div class="propertyheader">
+                                <div class="property-name">Nama Tempat</div>
+                            </div>
+                            <div class="property-price">Harga Tanah: </div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak Ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div2 squareh horizontal firstRow">
+                        <div class="containerh">
+                            {{-- <img src="./img/chances-h.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div3 square horizontal firstRow">
+                        <div id="prop3" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah: </div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div4 square horizontal firstRow">
+                        <div id="prop4" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5 square horizontal firstRow">
+                        <div id="prop5" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div6 square horizontal firstRow">
+                        <div id="prop6" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div7 squareh horizontal firstRow">
+                        <div class="containerh">
+                            {{-- <img src="./img/hke.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div8 square horizontal firstRow">
+                        <div id="prop8" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup2">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div9 square horizontal firstRow">
+                        <div id="prop9" class="prop propBottom"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup2">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div10 squareb corner">
+                        <div id="freeparkingcontainer">
+                            {{-- <img src="./img/freeparking.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div11 square vertical secondRow">
+                        <div id="prop11" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup3">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div12 squarev vertical secondRow">
+                        <div class="containerv">
+                            {{-- <img src="./img/incometax.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div13 square vertical secondRow">
+                        <div id="prop13" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup3">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div14 square vertical secondRow">
+                        <div id="prop14" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup3">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div15 square vertical secondRow">
+                        <div id="prop15" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup3">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div16 square vertical secondRow">
+                        <div id="prop16" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup3">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div17 squarev vertical secondRow">
+                        <div class="containerv">
+                            {{-- <img src="./img/chances-v.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div18 square vertical secondRow">
+                        <div id="prop18" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup4">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div19 square vertical secondRow">
+                        <div id="prop19" class="prop propLeft"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup4">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div20 square corner">
+                        <div id="wheelcontainer">
+                            {{-- <img src="./img/wheel.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div21 square horizontal thirdRow">
+                        <div id="prop21" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup5">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div22 square horizontal thirdRow">
+                        <div id="prop22" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup5">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div23 square horizontal thirdRow">
+                        <div id="prop23" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup5">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div24 square horizontal thirdRow">
+                        <div id="prop24" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup5">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div25 squareh horizontal thirdRow">
+                        <div class="containerh">
+                            {{-- <img src="./img/chances-h.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div26 square horizontal thirdRow">
+                        <div id="prop26" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup5">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div27 squareh horizontal thirdRow">
+                        <div class="containerh">
+                            {{-- <img src="./img/stampduty.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div28 square horizontal thirdRow">
+                        <div id="prop28" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup6">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div29 square horizontal thirdRow">
+                        <div id="prop29" class="prop propTop"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup6">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div30 squareb corner">
+                        <div id="jailcontainer">
+                            {{-- <img src="./img/jail.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div31 square vertical fourthRow">
+                        <div id="prop31" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup7">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div32 squarev vertical fourthRow">
+                        <div id="prop32" class="containerv">
+                            {{-- <img src="./img/luxurytax.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div33 square vertical fourthRow">
+                        <div id="prop33" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup7">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div34 square vertical fourthRow">
+                        <div id="prop34" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup7">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div35 square vertical fourthRow">
+                        <div id="prop35" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup7">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div36 square vertical fourthRow">
+                        <div id="prop36" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup7">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div37 squarev vertical fourthRow">
+                        <div class="containerv">
+                            {{-- <img src="./img/chances-v.svg" /> --}}
+                        </div>
+                    </div>
+                    <div class="div38 square vertical fourthRow">
+                        <div id="prop38" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup8">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div39 square vertical fourthRow">
+                        <div id="prop39" class="prop propRight"></div>
+                        <div class="levelup"></div>
+                        <div class="property-popup8">
+                            <div class="propertyheader">
+                                <div class="property-name">nama tempat</div>
+                            </div>
+                            <div class="property-price">harga tanah:</div>
+                            <div class="property-description">
+                                <div class="property-owner">Pemilik: Tidak ada</div>
+                                <div class="property-value">Nilai properti saat ini:</div>
+                                <div class="property-lv1-rent">sewa kelas 1:</div>
+                                <div class="property-lv2-rent">sewa kelas 2:</div>
+                                <div class="property-lv3-rent">sewa kelas 3:</div>
+                                <div class="property-lv4-rent">sewa kelas 4:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div40">
+                        <div style="margin-bottom:100px;">
+                            {{-- <h1 style="font-weight: bold margin-top:100px;">pemain saat ini</h1> --}}
+                            <div id="logo" style="margin-bottom: 170px;"><img src="{{ asset('img/moputa.png') }}" />
+                            </div>
+                            <br />
+                            <p id="playernow">player 1</p>
+                            <div id="dice-container"></div>
+                            <button id="rolldice" onclick="rollAndDisplayDice()">
+                                Dadu
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="space chance" id="23">
-                    <div class="container">
-                        <div class="name rotate_atas">Kelola Emosi dan konflik</div>
-                        <i class="drawing fa fa-question blue"></i>
-                    </div>
-                </div>
-                <div class="space property" id="24">
-                    <div class="container">
-                        <div class="color-bar red"></div>
-                        <div class="name rotate_atas">Eksplorasi Seni</div>
-                        {{-- <div class="price rotate_atas">£220</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="25">
-                    <div class="container">
-                        <div class="color-bar red"></div>
-                        <div class="name long-name rotate_atas">Kerja Sama</div>
-                        {{-- <div class="price rotate_atas">£240</div> --}}
-                    </div>
-                </div>
-                <div class="space railroad" id="26">
-                    <div class="container">
-                        <div class="name rotate_atas" style="margin-top: 30px;">Pemecahan Masalah</div>
-                        <i class="drawing fa fa-building"></i>
-                        {{-- <div class="price rotate_atas">£200</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="27">
-                    <div class="container">
-                        <div class="color-bar yellow"></div>
-                        <div class="name rotate_atas">Hobi dan Minat</div>
-                        {{-- <div class="price rotate_atas">£260</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="28">
-                    <div class="container">
-                        <div class="color-bar yellow"></div>
-                        <div class="name rotate_atas">Finansial</div>
-                        {{-- <div class="price rotate_atas">£260</div> --}}
-                    </div>
-                </div>
-                <div class="space utility waterworks" id="29">
-                    <div class="container">
-                        <div class="name rotate_atas" style="margin-top: 30px;">Kegiatan Sosial</div>
-                        <i class="drawing fa fa-university"></i>
-                        {{-- <div class="price rotate_atas">£150</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="30">
-                    <div class="container">
-                        <div class="color-bar yellow"></div>
-                        <div class="name long-name rotate_atas">Harapan</div>
-                        {{-- <div class="price rotate_atas">£280</div> --}}
-                    </div>
-                </div>
-            </div>
 
-            <div class="space corner go-to-jail" id="31">
-                <div class="container">
-                    <div class="name rotate_atas">Jail</div>
-                    <i class="drawing fa fa-gavel"></i>
-                    <div class="name rotate_atas">Go To</div>
-                </div>
-            </div>
-            <div class="row vertical-row right-row">
-                <div class="space property" id="32">
-                    <div class="container">
-                        <div class="color-bar green"></div>
-                        <div class="name rotate_kanan">Nilai Moral yang Baik</div>
-                        {{-- <div class="price rotate_kanan">£300</div> --}}
+                <div class="side">
+                    <div class="controlBar">
+                        <button id="speedControlBtn" onclick="speedControl()">
+                            Kecepatan permainan: normal
+                        </button>
+                        <button id="instructionBtn">Pengantar Aturan</button>
                     </div>
-                </div>
-                <div class="space property" id="33">
-                    <div class="container">
-                        <div class="color-bar green"></div>
-                        <div class="name rotate_kanan">Pergaulan</div>
-                        {{-- <div class="price rotate_kanan">£300</div> --}}
-                    </div>
-                </div>
-                <div class="space community-chest" id="34">
-                    <div class="container">
-                        <div class="name rotate_kanan" style="margin-top: 30px;">Toleransi</div>
-                        <i class="drawing fa fa-key"></i>
-                    </div>
-                </div>
-                <div class="space property" id="35">
-                    <div class="container">
-                        <div class="color-bar green"></div>
-                        <div class="name rotate_kanan two-line-name rotate_kanan">Etika dan Norma</div>
-                        {{-- <div class="price rotate_kanan">£320</div> --}}
-                    </div>
-                </div>
 
-                <!-- <div class="space property" id="32">
-                    <div class="container">
-                        <div class="color-bar green"></div>
-                        <div class="name rotate_kanan">Menteng</div>
-                        <div class="price rotate_kanan">£300</div>
+                    <div id="instructionBox">
+                        <ul>
+                            <li>Jumlah awal untuk setiap pemain adalah $15.000.</li>
+                            <li>Setiap kali Anda melewati titik awal, Anda akan mendapatkan $2000.</li>
+                            <li>Ketuk tombol boost untuk mempercepat game, atau kembali normal.</li>
+                            <li>Klik pada dadu untuk memainkan permainan, dan komputer akan secara otomatis melempar dadu
+                                untuk Anda.</li>
+                            <li>
+                                Tujuan permainan: Ketika seorang pemain bangkrut, permainan berakhir, dan pemain dengan aset
+                                terbanyak adalah pemenangnya.
+                            </li>
+                            <li>Setiap petak catur akan memicu peristiwa yang sesuai, yang dibagi menjadi beberapa jenis
+                                berikut:</li>
+                            <li>
+                                Real estat biasa: Pemain bebas membeli dan meningkatkan untuk membangun rumah. Pemain lain
+                                akan membayar Anda sewa saat mereka melewati real estat Anda. Informasi detail real estat
+                                akan ditampilkan saat mouse diletakkan di papan catur.
+                            </li>
+                            <li>Peluang: Secara acak memicu Keberuntungan atau Kesialan.</li>
+                            <li>Membayar pajak: Membayar berbagai jenis pajak akan memiliki harga yang berbeda.</li>
+                            <li></li>
+                            <li></li>
+                            <li>Bad Bay: Hentikan aksi selama 3 giliran.</li>
+                            <li>
+                                Mekanisme peningkatan: Pemain dapat meningkatkan propertinya saat menginjakkan kaki di
+                                atasnya. Ada empat tingkat properti, yaitu ruang terbuka, rumah (tingkat 2), vila (tingkat
+                                3), hotel (tingkat 4), dan kebutuhan untuk meningkatkan ke tingkat 2 Seperlima harga tanah,
+                                tiga per lima harga tanah kelas 3, dan tiga per lima harga awal kelas 4.
+                            </li>
+                            <li>
+                                Mekanisme sewa tanah: Sewa properti kelas satu adalah seperlima dari harga tanah, kelas
+                                kedua adalah setengah, kelas ketiga adalah harga asli, dan kelas keempat adalah dua kali
+                                lipat harga.
+                            </li>
+                            <li>
+                                Mekanisme kebangkrutan: Setelah uang tunai pemain turun di bawah 0, dia harus menjual
+                                propertinya sendiri dengan harga 80% dari total nilai properti tersebut. Ketika uang tunai
+                                pemain masih di bawah 0 tanpa properti apa pun, mereka secara otomatis akan mengajukan
+                                kebangkrutan dan permainan berakhir.
+                            </li>
+                        </ul>
                     </div>
-                </div> -->
 
-                <div class="space property" id="36">
-                    <div class="container">
-                        <div class="name rotate_kanan" style="margin-top: 50px;">Etika Sosial </div>
-                        <i class="drawing fa fa-building"></i>
-                        {{-- <div class="price rotate_kanan">£200</div> --}}
-                    </div>
-                </div>
-                <div class="space chance" id="37">
-                    <div class="container">
-                        <div class="name rotate_kanan">Inter personal</div>
-                        <i class="drawing fa fa-question"></i>
-                    </div>
-                </div>
-                <div class="space property" id="38">
-                    <div class="container">
-                        <div class="color-bar dark-blue"></div>
-                        <div class="name rotate_kanan">Empati</div>
-                        {{-- <div class="price rotate_kanan">£350</div> --}}
-                    </div>
-                </div>
-                <div class="space fee luxury-tax property" id="39">
-                    <div class="container">
-                        <div class="name rotate_kanan" style="margin-top: 30px; font-size:10px;">Tanggung Jawab</div>
-                        <div class="drawing fa fa-database"></div>
-                        {{-- <div class="price rotate_kanan">Pay £200</div> --}}
-                    </div>
-                </div>
-                <div class="space property" id="40">
-                    <div class="container">
-                        <div class="color-bar dark-blue"></div>
-                        <div class="name rotate_kanan">Pemimpin</div>
-                        {{-- <div class="price rotate_kanan">£400</div> --}}
+                    <div class="playerBigBox">
+                        <div class="playercolbar">
+                            <div class="playercol1">pemain</div>
+                            <div class="playercol2">uang tunai</div>
+                            <div class="playercol3">Nilai properti kotor</div>
+                            <div class="playercol4">Total aset</div>
+                        </div>
+                        <div id="player1Info" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player1.png') }}" height="40px" />
+                                <div id="player1Name" class="playerName">player 1</div>
+                            </div>
+                            <div id="player1Money" class="playerMoney">$15000</div>
+                            <div id="player1PropValue" class="playerMoney">$0</div>
+                            <div id="player1TotalValue" class="playerMoney">$15000</div>
+                        </div>
+                        <div id="player2Info" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player2.png') }}" height="40px" />
+                                <div id="player2Name" class="playerName">Player 2</div>
+                            </div>
+                            <div id="player2Money" class="playerMoney">$15000</div>
+                            <div id="player2PropValue" class="playerMoney">$0</div>
+                            <div id="player2TotalValue" class="playerMoney">$15000</div>
+                        </div>
+                        <div id="player3Info" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player3.png') }}" height="40px" />
+                                <div id="player3Name" class="playerName">Player 3</div>
+                            </div>
+                            <div id="player3Money" class="playerMoney">$15000</div>
+                            <div id="player3PropValue" class="playerMoney">$0</div>
+                            <div id="player3TotalValue" class="playerMoney">$15000</div>
+                        </div>
+                        <div id="player4Info" class="playerInfo">
+                            <div class="playerIconBar">
+                                <img src="{{ asset('img/player4.png') }}" height="40px" />
+                                <div id="player4Name" class="playerName">Player 4</div>
+                            </div>
+                            <div id="player4Money" class="playerMoney">$15000</div>
+                            <div id="player4PropValue" class="playerMoney">$0</div>
+                            <div id="player4TotalValue" class="playerMoney">$15000</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="answers">
-        <div class="answer" id="answer-1">1</div>
-    </div>
 
-    <div class="dice">
-        <button class="roll-dice">Roll Dice</button>
-        <span class="dice-result"></span>
-        <br />
-        <img src="https://bit.ly/dice-unknown" id="dice">
-    </div>
-    @include('layouts.footer')
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/dice.js') }}"></script>
-</body>
+        {{-- Template --}}
+        <script src="{{ asset('js/script.js') }}"></script>
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    </body>
 
-</html>
+    </html>
+@stop

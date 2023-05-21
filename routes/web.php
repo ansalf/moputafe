@@ -80,9 +80,6 @@ Route::get('/board', function () {
     return view('board');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
 
 // Route Player
 // Route::get('players', [PlayerController::class, 'index']);
